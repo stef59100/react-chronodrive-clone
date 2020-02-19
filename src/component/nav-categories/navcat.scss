@@ -1,0 +1,29 @@
+@import '../../mixins';
+
+.navcat {
+    background-color: $lightest;
+    @media (min-width: 1200px) {
+        position: absolute;
+        top: 50px;
+        z-index: 9999;
+    }
+
+    &__item {
+        margin: 4px;
+        background-color: $green;
+        flex-grow: 1;
+
+
+        a {
+            margin-top: 7px;
+            color: $lightest;
+            font-size: 1.2em;
+            display: block;
+
+            text-align: center;
+        }
+
+
+    }
+
+}

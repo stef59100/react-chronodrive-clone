@@ -1,0 +1,14 @@
+@import '../../mixins';
+.search {
+    .form-control {
+        border: 2px solid $darkgrey;
+        @include border-rad(24px);
+        line-height: 2;
+        input {
+            border:none;
+           
+
+        }
+
+    }
+}

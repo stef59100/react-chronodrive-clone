@@ -1,0 +1,1 @@
+<button className="btn cart-action rounded-circle" onClick={() => props.removeFromCart(props.product)} >-</button

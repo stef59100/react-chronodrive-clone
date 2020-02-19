@@ -1,0 +1,74 @@
+@import '../../mixins';
+
+.prod {
+    &__desc {
+        min-height: 200px;
+     }
+    &__badge {
+        position: absolute;
+        top: 0;
+        right: 0;
+        display: block;
+        padding: 8px;
+        background-color: $red;
+        color: $lightest;
+        font-weight: bold;
+    }   
+
+    &__price__container {
+        @include border;
+
+        &__price {
+            background-color: $red;
+            color: $lightest;
+            padding: 0.5em;
+            font-weight: bold;
+            flex-grow: 2;
+            text-align: center;
+            font-size: 1.25em;
+
+            p {
+                margin: 0;
+                line-height: 0.8;
+            }
+
+        }
+
+        &__extras {
+            font-family: 'Roboto Condensed';
+            font-size: 0.9em;
+            padding: 0.5em;
+            flex-grow: 1;
+
+            p {
+                margin: 0;
+                line-height: 1;
+            }
+
+            .message {
+                color: $red;
+                font-weight: bold;
+            }
+        }
+
+        &.cagnottage {
+            .prod__price__container__price {
+                background-color: $cagn;
+            }
+
+            & .prod__price__container__extras {
+                .message {
+                    color: $cagn;
+                }
+            }
+
+
+        }
+    }
+
+}
+
+.strikethrough {
+    font-weight: normal;
+
+}

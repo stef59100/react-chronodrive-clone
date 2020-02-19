@@ -1,0 +1,10 @@
+@import './variables';
+@mixin border {
+border:1px solid $lightgrey;
+}
+@mixin full-circle {
+    border-radius:50%;
+}
+@mixin border-rad($rayon) {
+    border-radius:$rayon !important;
+}

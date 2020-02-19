@@ -1,0 +1,23 @@
+{
+    "banners": [
+        {
+            "id": 1,
+            "src": "https://fakeimg.pl/1200x200/8CAA0A/fff/?text=banner%201",
+            "url": "http://google.fr",
+            "title": "banner 1"
+            
+        },
+        {
+            "id": 2,
+            "src": "https://fakeimg.pl/1200x200/DA291C/fff/?text=banner%202",
+            "url": "http://google.fr",
+            "title": "banner 2"
+        },
+        {
+            "id": 3,
+            "src": "https://fakeimg.pl/235x360/FF8526/fff/?text=banner%203",
+            "url": "http://google.fr",
+            "title": "banner 3"
+        }
+    ]
+}

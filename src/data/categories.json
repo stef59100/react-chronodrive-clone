@@ -1,0 +1,95 @@
+{
+    "categories": [
+        {
+            "id": 1,
+            "name": "Promotions",
+            "img": "./categories/menuFooter-promotions.jpg",
+            "route": "/promotions"
+        },
+        {
+            "id": 2,
+            "name": "Nouveautés",
+            "img": "./categories/menuFooter-nouveautes.jpg",
+            "route": "/nouveautes"
+        },
+       
+        {
+            "id": 4,
+            "name": "Fruits et légumes",
+            "img": "./categories/menuFooter-fruitslegumes.jpg",
+            "route": "/fruits-legumes"
+        },
+        {
+            "id": 5,
+            "name": "Poissons et viandes",
+            "img": "./categories/menuFooter-poisson.jpg",
+            "route": "/poissons-viandes"
+        },
+        {
+            "id": 6,
+            "name": "Produits laitiers & oeufs",
+            "img": "./categories/menuFooter-oeufs.jpg",
+            "route": "/lait-oeufs"
+        },
+        {
+            "id": 7,
+            "name": "Pains & traiteur",
+            "img": "./categories/menuFooter-traiteur.jpg",
+            "route": "/frais-fromages"
+        },
+        {
+            "id": 8,
+            "name": "Surgelés",
+            "img": "./categories/menuFooter-surgeles.jpg",
+            "route": "/surgeles"
+        },
+        {
+            "id": 9,
+            "name": "Epicerie salée",
+            "img": "./categories/menuFooter-epiceriesalee.jpg",
+            "route": "/epicerie-salee"
+        },
+        {
+            "id": 10,
+            "name": "Epicerie sucrée",
+            "img": "./categories/menuFooter-epiceriesucree.jpg",
+            "route": "/epicerie-sucree"
+        },
+        {
+            "id": 11,
+            "name": "Boissons",
+            "img": "./categories/menuFooter-boissons.jpg",
+            "route": "/boissons"
+        },
+        {
+            "id": 12,
+            "name": "Bébé",
+            "img": "./categories/menuFooter-bebe.jpg",
+            "route": "/bebe"
+        },
+        {
+            "id": 13,
+            "name": "Hygiène et beauté",
+            "img": "./categories/menuFooter-hygienebeaute.jpg",
+            "route": "/bebe"
+        },
+        {
+            "id": 14,
+            "name": "Nettoyage & entretieb",
+            "img": "./categories/menuFooter-nettoyageentretien.jpg",
+            "route": "/nettoyage-entretien"
+        },
+        {
+            "id": 15,
+            "name": "Maison & loisirs",
+            "img": "./categories/menuFooter-maisonloisirs.jpg",
+            "route": "/bebe"
+        },
+        {
+            "id": 16,
+            "name": "Animaux",
+            "img": "./categories/menuFooter-animaux.jpg",
+            "route": "/animaux"
+        }
+    ]
+}

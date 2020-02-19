@@ -1,0 +1,70 @@
+@import '../../mixins';
+
+.navbar {
+    .nav-item {
+        margin: auto 6px;
+      
+        &.basket-2,
+        &.cart {
+            @include border-rad(50px);
+        }
+
+        a.nav-link {
+            color: $lightest;
+
+            &.active {
+                color: $lightest;
+
+                &.home  {
+                    color: blue !important;
+                }
+            }
+
+            svg {
+                width: 48px;
+                height: 48px;
+                fill: $lightest;
+                padding: 8px;
+            }
+        }
+
+        &.basket-2 {
+            background-color: $green;
+        }
+        &.star {
+            @include full-circle;
+            background-color: $gold;
+        }
+        &.click {
+            @include full-circle;
+            background-color: $brown;
+        }
+        &.user {
+            @include full-circle;
+            background-color: $lightest;
+            border: 2px solid $dark;
+            svg {
+                fill:$dark !important;
+            }
+        }
+
+        &.percent {
+            @include full-circle;
+            background-color: $red;
+            svg {}
+        }
+
+        &.cart {
+            border: 2px solid $green;
+            min-width: 160px;
+            a.nav-link {
+                color: $green;
+                font-size: 1.25rem;
+            }
+            svg {
+                fill: $green !important;
+            }
+        }
+
+    }
+}
