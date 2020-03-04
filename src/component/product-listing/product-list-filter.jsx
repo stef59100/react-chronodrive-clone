@@ -7,26 +7,23 @@ import ProductListItem from './product-list-item';
 import './product-list.scss';
 
 class ProductListFilter extends React.Component {
-    constructor(props){
-        super(props)
-    }
+   
 
     componentDidMount() {
         const { loadProducts } = this.props
-        fetchApi('get', 'https://api.jsonbin.io/b/5e4d0e7cf3a83555904f73ca/2')
+        fetchApi('get', 'https://api.jsonbin.io/b/5e4d0e7cf3a83555904f73ca/3')
             .then((json => {
                 loadProducts(json)
             }))
     }
 
     render() {
-        const { addToCart, removeFromCart, products, cart} = this.props;
-        const id_cat = this.props.catid;     
+        const { addToCart, removeFromCart, products, cart, catid} = this.props;         
               
         let filteredProds =  products.filter((item) => (
-           item.cat_id ===  11
+           item.cat_id === catid
         ))
-        console.log(filteredProds);
+        
         return <div className="products-list row mb-3">
             {
                filteredProds.map((product, index) => (

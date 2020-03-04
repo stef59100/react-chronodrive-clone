@@ -12,7 +12,7 @@ const Router = () => (
         <Route exact path='/checkout' component={CheckoutPage} />
         <Route exact path='/promotions' component={HomePage} />
         <Route exact path='/nouveautes' component={HomePage} />
-        <Route exact path='/boissons' component={CategoryPage} />
+        <Route exact path='/boissons' render={(props)=><CategoryPage {...props}/> }/>
     </Switch>
 )
 export default Router;

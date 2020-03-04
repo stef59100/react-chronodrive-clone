@@ -7,7 +7,7 @@ export default function NavCat(props) {
         {
             props.cat.map(category =>  (
             <div className="col-md-2 navcat__item rounded" key={`nav-${category.id}`} id={`navcat-${category.id}`}>
-                <NavLink catid={category.id} to={category.route}>{category.name}</NavLink>               
+                <NavLink catid={category.id} to={category.route} catname={category.name}>{category.name}</NavLink>               
                 </div>
             ))}
     </div>)

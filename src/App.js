@@ -7,6 +7,8 @@ import { connect } from 'react-redux';
 import TopArea from './component/top';
 import SearchForm from './component/search-form/search-form';
 import HeaderNav from './component/header-nav/header-nav';
+import Logo from './component/logo';
+
 
 import './app.scss';
 
@@ -22,12 +24,19 @@ class App extends React.Component {
       <>
         <TopArea></TopArea>
         <div className="extras">
+        
           <div className="container">
+       
             <div className="row justify-content-between align-items-center">
-              <div className="geoloc d-flex justify-content-space-evenly col-2">
-                <span>{this.state.city.cp}-{this.state.city.name}</span>
-                <a href="#" className="ml-2 mr-2 text-white">Changer de centre</a>
+           
+              <div className="col">
+              <Logo className="h logo"/> 
+                <div className="geoloc d-flex justify-content-space-evenly">
+                  <span>{this.state.city.cp}-{this.state.city.name}</span>
+                  <a href="#" className="ml-2 mr-2 text-white">Changer de centre</a>
+                </div>
               </div>
+              
               <SearchForm />
               <HeaderNav {...this.props}></HeaderNav>
             </div>

@@ -1,0 +1,40 @@
+@import '../../mixins';
+
+.cart {
+    .prod {
+        &__cart {
+            &__actions {
+                right: 0;
+                position: relative;
+            }
+        }
+    }
+
+    .actions {
+        .btn {
+            &.cart-action {
+                width: auto;
+                height: auto;
+
+                &.rmvall-bttn {
+                    background-color: $lightest;
+
+                    svg {
+                        max-width: 100%;
+                        height: auto;
+                        fill: #c1c1c1;
+                    }
+                }
+            }
+        }
+    }
+
+    p {
+        margin-bottom: 0;
+
+        &.cart__item__title {
+            font-family: 'Roboto Condensed';
+            font-weight: bold;
+        }
+    }
+}

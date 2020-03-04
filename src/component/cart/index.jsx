@@ -6,6 +6,7 @@ import '../buttons/buttons.scss'
 import './cart.scss'
 import { ReactComponent as Minus } from './../buttons/iconmonstr-minus-5.svg';
 import { ReactComponent as More } from './../buttons/iconmonstr-plus-5.svg';
+import { ReactComponent as Delete } from './../buttons/icons8-delete.svg';
 
 function sort(items) {
     return items.sort((a, b) => {
@@ -18,21 +19,22 @@ function sort(items) {
 const Cart = (props) => {
     return <div className="cart">
 
-        {sort(props.cart).map(item => <div className="cart__item d-flex row" key={item.id}>
-            <img src={item.img} alt={item.title} className="img-fluid col-2" />
+        {sort(props.cart).map(item => <div className="cart__item d-flex row p-2 mb-2 align-items-center justify-content-between" key={item.id}>
+            <img src={item.img} alt={item.title} className="img-fluid col-2 col-lg-1" />
             <div className="col-2">
-                <p >{item.title}</p>
-                <p >{item.description}</p>
+                <p className="cart__item__title">{item.title}</p>
+                <p className="cart__item__desc">{item.description}</p>
+                <p>{item.conditioning}</p>
             </div>
             <p className="col-2">{item.price} €</p>
             <p className="col-2">{(item.price * item.quantity).toFixed(2)} €</p>
-            <div className="actions  col d-flex justify-content-between align-items-center">
+            <div className="actions  col-2 d-flex justify-content-between align-items-center">
                 <div className="prod__cart__actions d-flex justify-content-end align-items-center">
                     <button className="btn cart-action rounded-circle rmv-bttn" onClick={() => props.removeFromCart(item)}><Minus className="actions_bttn less" /></button>
                     <div>{item.quantity}</div>
                     <button className="btn cart-action rounded-circle add-bttn" onClick={() => props.addToCart(item)}> <More className="actions_bttn more" /></button>
                 </div>
-                <button className="btn cart-action" onClick={() => props.removeAllFromCart(item)}>Remove All</button>
+                <button className="btn cart-action rmvall-bttn" onClick={() => props.removeAllFromCart(item)}><Delete/></button>
 
             </div>
         </div>)
@@ -40,14 +42,16 @@ const Cart = (props) => {
 
         <div className="cartFooter d-flex">
             <div>{props.cart.reduce((acc, item) => {
-                let total = parseFloat(acc) + parseFloat(item.quantity) * parseFloat((item.specialprice:item.price))
+                let prix= (item.specialprice!== "")?item.specialprice:item.price;
+                let total = parseFloat(acc) + parseFloat(item.quantity) * parseFloat(prix)
                 return total.toFixed(2);
     }, 0)} €</div>
-            <NavLink className="btn-primary" to="/checkout">checkout</NavLink>
+            <NavLink className="btn-primary bg-red" to="/checkout">Passer commande</NavLink>           
         </div>
     </div>
 
 }
+
 
 function mapStateToProps(state) {
     return {
@@ -65,10 +69,7 @@ function mapDispatchToProps(dispatch) {
         removeAllFromCart: (item) => {
             dispatch({ type: 'REMOVE_ALL', payload: item })
         }
-
     }
-
-
 }
 
 export default connect(mapStateToProps, mapDispatchToProps)(Cart)

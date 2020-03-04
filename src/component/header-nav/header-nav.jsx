@@ -1,5 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import Collapsible from 'react-collapsible';
 
 
 import NavCat from '../nav-categories/index';
@@ -17,6 +18,7 @@ import './header-nav.scss';
 // import CollapseDiv from '../../helpers/nav.js';
 // import cart from '../cart';
 // import Router from './../../Router';
+import Cart from './../cart/index';
 
 const HeaderNav = ({ cart }) => {
     // CollapseDiv();
@@ -31,9 +33,7 @@ const HeaderNav = ({ cart }) => {
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav">
-                        <li className="nav-item home active">
-                            <NavLink to="/" className="nav-link home">Accueil</NavLink>
-                        </li>
+                        
                         <li className="nav-item basket-2">
                             <NavLink to="#rayons" className="nav-link d-flex align-items-center" role="button" data-toggle="#rayons"><Basket2/><span>Rayons</span></NavLink>
                         </li>
@@ -56,6 +56,9 @@ const HeaderNav = ({ cart }) => {
                           
                                 return total.toFixed(2)
                             }, 0)} €)</NavLink>
+                            <Collapsible>                                
+                                <Cart />
+                            </Collapsible>
                         </li>
                     </ul>
                 </div>

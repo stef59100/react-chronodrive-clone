@@ -8,14 +8,18 @@ export default function ProductListtem(props) {
 
     const cagnoo = (props.product.cagnottage) ? 'cagnottage' : null;
     //    const thisItemInCart = props.cart.filter(item => item.id === props.product.id)[0];
-    return (<div className="prod col d-flex justify-content-between align-items-baseline flex-column">
+    return (
+    <div className="prod col d-flex justify-content-between align-items-baseline flex-column" key={props.product.id}>
         <img src={props.product.img} alt={props.product.title} className="img-fluid" />
         <div className="prod__desc d-flex flex-column  justify-content-between ">
             <div className="text_wrap">
                 <h2 className="h5">{props.product.title}</h2>
                 <p className="prod__desc__text">{props.product.description}</p>
             </div>
+            <div className="prod__extras">
             <ProductConditioning badge={props.product.conditioning} ></ProductConditioning>
+
+            </div>
             {/* <div className="qtydisplay">
                 {
                 (props.cartItem && props.cartItem.quantity) || 0
@@ -72,9 +76,9 @@ function ProductConditioning(props) {
 
     if (props.badge !== "") {
         return (
-            <span className="prod__badge">
-                {props.badge}
-            </span>
+            <div className="prod__extras__flag">
+                <div className="prod__extras__flag__inner"> {props.badge}</div>                          
+            </div>
         )
     } else {
         return null;
