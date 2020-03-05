@@ -8,15 +8,24 @@ import TopArea from './component/top';
 import SearchForm from './component/search-form/search-form';
 import HeaderNav from './component/header-nav/header-nav';
 import Logo from './component/logo';
+import {
+  CollapsibleComponent,
+  CollapsibleHead,
+  CollapsibleContent
+} from "react-collapsible-component";
+
+import { ReactComponent as PlaceHolder} from './helpers/placeholder.svg';
+import { ReactComponent as Shuffle} from './helpers/random.svg';
 
 
 import './app.scss';
+import './helpers/collapse.scss';
 
 class App extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
-      city: { id: '1', name: 'Tourcoing -Les Francs', cp: '59200' }
+      city: { id: '1', name: 'Bondues - Ravennes les Francs', cp: '59200' }
     }
   }
   render() {
@@ -24,19 +33,28 @@ class App extends React.Component {
       <>
         <TopArea></TopArea>
         <div className="extras">
-        
           <div className="container">
-       
             <div className="row justify-content-between align-items-center">
-           
               <div className="col">
-              <Logo className="h logo"/> 
+                <Logo className="h logo" />
                 <div className="geoloc d-flex justify-content-space-evenly">
-                  <span>{this.state.city.cp}-{this.state.city.name}</span>
-                  <a href="#" className="ml-2 mr-2 text-white">Changer de centre</a>
+                  <CollapsibleComponent name="one">
+                    <CollapsibleHead className="d-flex"><PlaceHolder className="col-2"/><div className="col-10">
+                      {this.state.city.cp}-{this.state.city.name}
+                    </div></CollapsibleHead>
+                    <CollapsibleContent>
+                    <ul className="">
+                      <li>
+                        <Shuffle className="col-2"></Shuffle>
+                        <a href="#" className="ml-2 mr-2 col-10">Changer de Magasin</a></li>
+                    </ul>
+                     
+                    </CollapsibleContent>                    
+                  </CollapsibleComponent>
+
                 </div>
               </div>
-              
+
               <SearchForm />
               <HeaderNav {...this.props}></HeaderNav>
             </div>
@@ -52,7 +70,7 @@ class App extends React.Component {
     );
   }
 }
-function mapStateToProps(state){
+function mapStateToProps(state) {
   return {
     cart: state.cart
   }
