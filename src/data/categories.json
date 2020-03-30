@@ -71,11 +71,11 @@
             "id": 13,
             "name": "Hygiène et beauté",
             "img": "./categories/menuFooter-hygienebeaute.jpg",
-            "route": "/bebe"
+            "route": "/hygiene-beaute"
         },
         {
             "id": 14,
-            "name": "Nettoyage & entretieb",
+            "name": "Nettoyage & entretien",
             "img": "./categories/menuFooter-nettoyageentretien.jpg",
             "route": "/nettoyage-entretien"
         },

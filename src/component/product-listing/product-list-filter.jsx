@@ -7,7 +7,6 @@ import ProductListItem from './product-list-item';
 import './product-list.scss';
 
 class ProductListFilter extends React.Component {
-   
 
     componentDidMount() {
         const { loadProducts } = this.props
@@ -18,17 +17,18 @@ class ProductListFilter extends React.Component {
     }
 
     render() {
-        const { addToCart, removeFromCart, products, cart, catid} = this.props;         
-              
-        let filteredProds =  products.filter((item) => (
-           item.cat_id === catid
-        ))
         
+        const { addToCart, removeFromCart, products, cart} = this.props;
+
+        let filteredProds = products.filter((item) => (
+            item.cat_id === this.props.catid
+        ))
+
         return <div className="products-list row mb-3">
             {
-               filteredProds.map((product, index) => (
+                filteredProds.map((product, pollux) => (
                     <ProductListItem
-                    key={index}
+                        key={pollux}
                         product={product}
                         addToCart={addToCart}
                         removeFromCart={removeFromCart}

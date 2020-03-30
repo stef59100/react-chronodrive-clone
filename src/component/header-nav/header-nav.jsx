@@ -19,9 +19,21 @@ import './header-nav.scss';
 // import cart from '../cart';
 // import Router from './../../Router';
 import Cart from './../cart/index';
+const cartHover = () =>  {
+    let cartAction = document.querySelectorAll('.cart-action');
+    let targetLink = document.querySelector('a.nav-link');
+    cartAction.forEach(bttn=>{
+        bttn.addEventListener('click', ()=> {
+            console.log('hit');
+            targetLink.classList.add('hit');
+        })
+    })
+}
+cartHover();
 
-const HeaderNav = ({ cart }) => {
-    // CollapseDiv();
+const HeaderNav = ({ cart }) => {   
+    
+
     return (
         <>
             <nav className="navbar navbar-expand-lg col  justify-content-around">
@@ -32,8 +44,7 @@ const HeaderNav = ({ cart }) => {
                     <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNav">
-                    <ul className="navbar-nav">
-                        
+                    <ul className="navbar-nav">                        
                         <li className="nav-item basket-2">
                             <NavLink to="#rayons" className="nav-link d-flex align-items-center" role="button" data-toggle="#rayons"><Basket2/><span>Rayons</span></NavLink>
                         </li>
@@ -50,12 +61,12 @@ const HeaderNav = ({ cart }) => {
                             <NavLink to="/checkout" className="nav-link "><User/></NavLink>
                         </li>
                         <li className="nav-item cart">
-                            <NavLink to="/cart" className="nav-link "><Basket2/> ({cart.reduce((acc,item)=>{
+                            <NavLink to="/cart" className="nav-link "><Basket2/> {cart.reduce((acc,item)=>{
                                 let price = (item.specialprice!== "")?item.specialprice:item.price;
                                 let total = parseFloat(acc) + parseFloat(item.quantity) * parseFloat(price)
                           
                                 return total.toFixed(2)
-                            }, 0)} €)</NavLink>
+                            }, 0)} €</NavLink>
                             <Collapsible>                                
                                 <Cart />
                             </Collapsible>
@@ -68,4 +79,6 @@ const HeaderNav = ({ cart }) => {
 
     )
 }
+
+
 export default HeaderNav;
