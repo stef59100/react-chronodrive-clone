@@ -4,6 +4,7 @@ import HomePage from './pages/homepage';
 import CartPage from './pages/cart';
 import CheckoutPage from './pages/checkoutpage';
 import CategoryPage from './pages/categorypage';
+import ProductPage from './pages/productpage';
 
 const Router = () => (
     <Switch>
@@ -12,6 +13,9 @@ const Router = () => (
         <Route exact path='/checkout' component={CheckoutPage} />
         <Route exact path='/promotions' component={HomePage} />
         <Route exact path='/nouveautes' component={HomePage} />
+        
+        <Route path='/product/:productId'  render={(props)=><ProductPage {...props} />}/>
+
         <Route path='/promos' render={(props)=><CategoryPage {...props} catid={1} catname={"Promos"}/>}/>
         <Route path='/nouveautes' render={(props)=><CategoryPage {...props} catid={2} catname={"Nouveautes"}/>}/>
         <Route path='/fruits-legumes' render={(props)=><CategoryPage {...props} catid={4} catname={"Fruits et légumes"}/>}/>

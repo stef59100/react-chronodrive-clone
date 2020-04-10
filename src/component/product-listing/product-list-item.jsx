@@ -4,12 +4,15 @@ import './productItem.scss';
 import AddRmvBttn from '../buttons/add-button';
 import { ReactComponent as Basket } from '../buttons/basket.svg';
 
+import {Link} from 'react-router-dom';
+
 export default function ProductListtem(props) {
 
     const cagnoo = (props.product.cagnottage) ? 'cagnottage' : null;
     //    const thisItemInCart = props.cart.filter(item => item.id === props.product.id)[0];
     return (
-    <div className="prod col d-flex justify-content-between align-items-baseline flex-column" key={props.product.id}>
+    <div className="prod col-12 col-md-3 d-flex justify-content-between align-items-baseline flex-column" key={props.product.id}>
+        <Link to={`/product/${props.product.id}`}>Link</Link>
         <img src={props.product.img} alt={props.product.title} className="img-fluid" />
         <div className="prod__desc d-flex flex-column  justify-content-between ">
             <div className="text_wrap">

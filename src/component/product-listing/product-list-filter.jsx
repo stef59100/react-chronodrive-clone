@@ -10,14 +10,13 @@ class ProductListFilter extends React.Component {
 
     componentDidMount() {
         const { loadProducts } = this.props
-        fetchApi('get', 'https://api.jsonbin.io/b/5e4d0e7cf3a83555904f73ca/3')
+        fetchApi('get', 'https://api.jsonbin.io/b/5e4d0e7cf3a83555904f73ca/6')
             .then((json => {
                 loadProducts(json)
             }))
     }
 
-    render() {
-        
+    render() {        
         const { addToCart, removeFromCart, products, cart} = this.props;
 
         let filteredProds = products.filter((item) => (
