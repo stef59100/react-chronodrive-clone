@@ -1,0 +1,52 @@
+{
+    "stores": [
+        {
+            "id": 1,
+            "name": "Bondues",
+            "coordinates": {
+                "x": 123584854366.25165215,
+                "y": 3287899562.2666
+            },
+            "tel": "0328252421",
+            "address": "Rond point de ravennes les francs",
+            "cp": "59200",
+            "opening": {
+                "week": "8h-20h",
+                "sunday": "9h-12h"
+            },
+            "extra": ""
+        },
+        {
+            "id": 2,
+            "name": "Croix",
+            "coordinates": {
+                "x": 123584854366.25165215,
+                "y": 3287899562.2666
+            },
+            "tel": "0328252421",
+            "address": "Rond point de ravennes les francs",
+            "cp": "59200",
+            "opening": {
+                "week": "8h-20h",
+                "sunday": "9h-12h"
+            },
+            "extra": ""
+        },
+        {
+            "id": 3,
+            "name": "Villeneuve d'Ascq Pilaterie",
+            "coordinates": {
+                "x": 123584854366.25165215,
+                "y": 3287899562.2666
+            },
+            "tel": "0328252421",
+            "address": "Z.I de la Pilaterie",
+            "cp": "59200",
+            "opening": {
+                "week": "8h-20h",
+                "sunday": "9h-12h"
+            },
+            "extra": ""
+        }
+    ]
+}

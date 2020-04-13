@@ -24,7 +24,7 @@ const cartHover = () =>  {
     let targetLink = document.querySelector('a.nav-link');
     cartAction.forEach(bttn=>{
         bttn.addEventListener('click', ()=> {
-            console.log('hit');
+            
             targetLink.classList.add('hit');
         })
     })
@@ -32,9 +32,7 @@ const cartHover = () =>  {
 cartHover();
 
 const HeaderNav = ({ cart }) => {   
-    
-
-    return (
+        return (
         <>
             <nav className="navbar navbar-expand-lg col  justify-content-around">
                 <a className="navbar-brand" href="#">
@@ -79,6 +77,4 @@ const HeaderNav = ({ cart }) => {
 
     )
 }
-
-
 export default HeaderNav;

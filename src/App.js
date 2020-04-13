@@ -14,18 +14,20 @@ import {
   CollapsibleContent
 } from "react-collapsible-component";
 
-import { ReactComponent as PlaceHolder} from './helpers/placeholder.svg';
-import { ReactComponent as Shuffle} from './helpers/random.svg';
+
 
 
 import './app.scss';
 import './helpers/collapse.scss';
+import Geoloc from './component/geolocalisation/index';
+
+
 
 class App extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
-      city: { id: '1', name: 'Bondues - Ravennes les Francs', cp: '59200' }
+      city: { id: '1', name: 'Bondues - Ravennes les Francs', cp: '59300' }
     }
   }
   render() {
@@ -37,22 +39,8 @@ class App extends React.Component {
             <div className="row justify-content-between align-items-center">
               <div className="col">
                 <Logo className="h logo" />
-                <div className="geoloc d-flex justify-content-space-evenly">
-                  <CollapsibleComponent name="one">
-                    <CollapsibleHead className="d-flex"><PlaceHolder className="col-2"/><div className="col-10">
-                      {this.state.city.cp}-{this.state.city.name}
-                    </div></CollapsibleHead>
-                    <CollapsibleContent>
-                    <ul className="">
-                      <li>
-                        <Shuffle className="col-2"></Shuffle>
-                        <a href="#" className="ml-2 mr-2 col-10">Changer de Magasin</a></li>
-                    </ul>
-                     
-                    </CollapsibleContent>                    
-                  </CollapsibleComponent>
-
-                </div>
+                <Geoloc />
+               
               </div>
 
               <SearchForm />

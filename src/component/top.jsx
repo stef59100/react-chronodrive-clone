@@ -20,8 +20,6 @@ class TopArea extends React.Component {
                     </div>
             </div>
                 </div>
-
-
         )
     }
 

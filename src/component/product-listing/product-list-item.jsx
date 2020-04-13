@@ -4,26 +4,26 @@ import './productItem.scss';
 import AddRmvBttn from '../buttons/add-button';
 import { ReactComponent as Basket } from '../buttons/basket.svg';
 
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 export default function ProductListtem(props) {
 
     const cagnoo = (props.product.cagnottage) ? 'cagnottage' : null;
     //    const thisItemInCart = props.cart.filter(item => item.id === props.product.id)[0];
     return (
-    <div className="prod col-12 col-md-3 d-flex justify-content-between align-items-baseline flex-column" key={props.product.id}>
-        <Link to={`/product/${props.product.id}`}>Link</Link>
-        <img src={props.product.img} alt={props.product.title} className="img-fluid" />
-        <div className="prod__desc d-flex flex-column  justify-content-between ">
-            <div className="text_wrap">
-                <h2 className="h5">{props.product.title}</h2>
-                <p className="prod__desc__text">{props.product.description}</p>
-            </div>
-            <div className="prod__extras">
-            <ProductConditioning badge={props.product.conditioning} ></ProductConditioning>
-
-            </div>
-            {/* <div className="qtydisplay">
+        <div className="col-12 col-md-3 d-flex justify-content-between align-items-baseline flex-column" key={props.product.id}>
+            <div className="prod">
+                <Link to={`/product/${props.product.id}`}>Link</Link>
+                <img src={props.product.img} alt={props.product.title} className="img-fluid" />
+                <div className="prod__desc d-flex flex-column  justify-content-between ">
+                    <div className="text_wrap">
+                        <h2 className="h5">{props.product.title}</h2>
+                        <p className="prod__desc__text">{props.product.description}</p>
+                    </div>
+                    <div className="prod__extras">
+                        <ProductConditioning badge={props.product.conditioning} ></ProductConditioning>
+                    </div>
+                    {/* <div className="qtydisplay">
                 {
                 (props.cartItem && props.cartItem.quantity) || 0
                 }
@@ -32,26 +32,27 @@ export default function ProductListtem(props) {
             onClick={() => props.addToCart(props.product)} >
                 <Basket />
             </button> */}
-            <AddRmvBttn product={props.product}
-                addToCart={props.addToCart}
-                removeFromCart={props.removeFromCart}
-                cartItem={props.cartItem} />
+                    <AddRmvBttn product={props.product}
+                        addToCart={props.addToCart}
+                        removeFromCart={props.removeFromCart}
+                        cartItem={props.cartItem} />
 
-            <div className={`prod__price__container d-flex ${cagnoo}`}>
-                <div className="prod__price__container__price col-5">
-                    <ShowPromo promo={props.product.promo} price={props.product.price} cagnottage={props.product.cagnottage} specialprice={props.product.specialprice}></ShowPromo>
-                </div>
-                <div className="prod__price__container__extras col-7">
-                    <p className="message text-center">
-                        <span >{props.product.specialmessage}</span>
-                    </p>
-                    <p className="mention text-center" >
-                        <span>{props.product.specialmention}</span>
-                    </p>
+                    <div className={`prod__price__container d-flex ${cagnoo}`}>
+                        <div className="prod__price__container__price col-5">
+                            <ShowPromo promo={props.product.promo} price={props.product.price} cagnottage={props.product.cagnottage} specialprice={props.product.specialprice}></ShowPromo>
+                        </div>
+                        <div className="prod__price__container__extras col-7">
+                            <p className="message text-center">
+                                <span >{props.product.specialmessage}</span>
+                            </p>
+                            <p className="mention text-center" >
+                                <span>{props.product.specialmention}</span>
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
     )
 }
 function ShowPromo(props) {
@@ -80,7 +81,7 @@ function ProductConditioning(props) {
     if (props.badge !== "") {
         return (
             <div className="prod__extras__flag">
-                <div className="prod__extras__flag__inner"> {props.badge}</div>                          
+                <div className="prod__extras__flag__inner"> {props.badge}</div>
             </div>
         )
     } else {
