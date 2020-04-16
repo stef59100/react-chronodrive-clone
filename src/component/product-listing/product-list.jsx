@@ -11,34 +11,35 @@ class ProductList extends React.Component {
     componentDidMount() {
         const { loadProducts } = this.props
         fetchApi('get', 'https://api.jsonbin.io/b/5e4d0e7cf3a83555904f73ca/6')
-        .then((json => {
-            loadProducts(json)
-        }))
+            .then((json => {
+                loadProducts(json)
+            }))
     }
 
     render() {
         const { addToCart, removeFromCart, products, cart } = this.props;
-        let count = 0; 
-        console.log(typeof(products));
+        let count = 0;
+
         return <div className="products-list row mb-3">
             {
-            products.slice(0,4).map(product => (
+                products.slice(0, 4).map((product, i) => (
 
-                <ProductListItem 
-                    product={product}
-                    addToCart={addToCart}
-                    removeFromCart={removeFromCart}
-                    //cart={props.cart}
-                    cartItem={cart.filter(cartItem => cartItem.id === product.id)[0]}
-                />
-                
+                    <ProductListItem
+                        key={i}
+                        product={product}
+                        addToCart={addToCart}
+                        removeFromCart={removeFromCart}
+                        //cart={props.cart}
+                        cartItem={cart.filter(cartItem => cartItem.id === product.id)[0]}
+                    />
+
                 )
-            )}
+                )}
         </div>
     }
 }
 
-function mapStateToProps(state){
+function mapStateToProps(state) {
     return {
         cart: state.cart,
         products: state.products
@@ -48,13 +49,13 @@ function mapStateToProps(state){
 var mapDispatchToProps = (dispatch) => {
     return {
         loadProducts: (products) => {
-            dispatch({ type: 'LOAD', payload: products})
+            dispatch({ type: 'LOAD', payload: products })
         },
-        addToCart : (item) => {
-            dispatch({ type:'ADD', payload: item})            
+        addToCart: (item) => {
+            dispatch({ type: 'ADD', payload: item })
         },
-        removeFromCart : (item) => {
-            dispatch({ type:'REMOVE', payload: item})            
+        removeFromCart: (item) => {
+            dispatch({ type: 'REMOVE', payload: item })
         }
     }
 }

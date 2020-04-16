@@ -14,7 +14,8 @@
                 "week": "8h-20h",
                 "sunday": "9h-12h"
             },
-            "extra": ""
+            "extra": "",
+            "selected": true
         },
         {
             "id": 2,
@@ -30,7 +31,8 @@
                 "week": "8h-20h",
                 "sunday": "9h-12h"
             },
-            "extra": ""
+            "extra": "",
+            "selected": false
         },
         {
             "id": 3,
@@ -46,7 +48,8 @@
                 "week": "8h-20h",
                 "sunday": "9h-12h"
             },
-            "extra": ""
+            "extra": "",
+            "selected": false
         }
     ]
 }
