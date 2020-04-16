@@ -20,3 +20,12 @@
         transform: rotate(-45deg)
     }
 }
+@mixin padding_1 {
+    padding: $grid-gutter-width;
+}
+@mixin padding_2 {
+    padding: $grid-gutter-width*1.5;
+}
+@mixin borderb($type, $color, $widdth ){
+    border-bottom: $widdth $type $color;
+}

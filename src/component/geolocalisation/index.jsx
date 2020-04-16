@@ -10,7 +10,7 @@ import { ReactComponent as Shuffle } from '../../helpers/random.svg';
 import { ReactComponent as PlaceHolder } from '../../helpers/placeholder.svg';
 
 
-
+import './geoloc.scss';
 
 class Geoloc extends React.Component {
   constructor(props) {
@@ -45,21 +45,22 @@ class Geoloc extends React.Component {
             <CollapsibleContent>
               <div className="form">
                 {this.state.storeList.map((store, i) => (
-                  <div key={i}>
-                    <div className="form-check">
-
+                  <div key={i} className="store__list__item">
+                    
+                    <label className="radio-container" htmlFor={`option_${store.id}`}>
+                        <span>{store.cp} - {store.name}</span>
                       <input type="radio"
                         name="options"
                         id={`option_${store.id}`}
                         className="form-check-input"
                         value={`${store.name} - ${store.address}`}
-                        checked={this.state.selectedOption === store.name}
+                        checked={this.state.selectedOption === `${store.name} - ${store.address}`}
                         onChange={this.handleOptionChange}
                       />
-                      <label className="form-check-label" htmlFor={`option_${store.id}`}>
-                        <span>{store.cp}</span> - <span>{store.name}</span>
+                      <span class="checkmark"></span>
+                      
                       </label>
-                    </div>
+                    
                   </div>
                 ))}
                 <div>
