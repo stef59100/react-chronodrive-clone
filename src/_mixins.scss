@@ -20,6 +20,9 @@
         transform: rotate(-45deg)
     }
 }
+.is__pointer {
+    cursor: pointer;
+}
 @mixin padding_1 {
     padding: $grid-gutter-width;
 }

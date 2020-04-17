@@ -1,38 +1,44 @@
 @import '../../mixins';
 
-.panel-accordion {
+.Collapsible__contentOuter {
     position: absolute;
     background-color: $lightest;
     padding: 4px;
     z-index: 999;
-    @include padding_2;
-   
-}
-.store__list__item {
-    padding: $grid-gutter-width/2;
-    @include borderb(solid,$darkgrey, 2px)
 
-    &:nth-last-child(2) {
-       border:none;
+    .Collapsible__contentInner {
+        @include padding_2;
+    }
+
+
+}
+
+.store__list__item {
+    padding: $grid-gutter-width;
+
+    @include borderb(solid, $darkgrey, 1px) &:nth-last-child(2) {
+        border: none;
     }
 
 }
 
 
 /* Customize the label (the container) */
-.radio-container {
+label.radio-container {
     display: block;
     position: relative;
     padding-left: 35px;
-   
+    margin-bottom: 0;
     cursor: pointer;
     font-size: 14px;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    
-    
+
+
+
+
     /* Hide the browser's default radio button */
     input {
         position: absolute;
@@ -85,5 +91,6 @@
         border-radius: 50%;
         background: white;
     }
+
 
 }

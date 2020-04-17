@@ -1,8 +1,11 @@
 import React from 'react';
 import storesLoc from '../../data/stores.json';
 
-
-import Collapsible from 'react-collapsible';
+import {
+  CollapsibleComponent,
+  CollapsibleHead,
+  CollapsibleContent
+} from "react-collapsible-component";
 
 
 import { ReactComponent as Shuffle } from '../../helpers/random.svg';
@@ -10,7 +13,6 @@ import { ReactComponent as PlaceHolder } from '../../helpers/placeholder.svg';
 
 
 import './geoloc.scss';
-import Trigger from './trigger';
 
 class Geoloc extends React.Component {
   constructor(props) {
@@ -31,26 +33,23 @@ class Geoloc extends React.Component {
     })
   }
 
-  closeOnFocusOut = () => {
-    const theTrigger = document.querySelector('.Collapsible__trigger');
-    if (theTrigger.classList.contains('is-open')){
-      
-    }
-
-
-  }
-
   render() {
     return (
       <div className="geoloc-wrapper">
         <div className="geoloc d-flex justify-content-space-evenly">
-          <Collapsible trigger={<Trigger text={this.state.currentStoreName} className="d-flex align-items-start"/>} transitionCloseTime='500'  triggerTagName='div' >
-
-          <div className="form">
+          <CollapsibleComponent name="one">
+            <CollapsibleHead className="row">
+              <PlaceHolder width="16" />
+              <div className="col-10">
+                {this.state.currentStoreName}
+              </div>
+            </CollapsibleHead>
+            <CollapsibleContent>
+              <div className="form">
                 {this.state.storeList.map((store, i) => (
                   <div key={i} className="store__list__item">
                     
-                    <label className="radio-container d-flex" htmlFor={`option_${store.id}`}>
+                    <label className="radio-container" htmlFor={`option_${store.id}`}>
                         <span>{store.cp} - {store.name}</span>
                       <input type="radio"
                         name="options"
@@ -71,11 +70,8 @@ class Geoloc extends React.Component {
                 </div>
               </div>
 
-
-          </Collapsible>
-         
-              
-            
+            </CollapsibleContent>
+          </CollapsibleComponent>
 
         </div>
 
