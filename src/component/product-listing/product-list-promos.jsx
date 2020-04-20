@@ -1,7 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import fetchApi from '../../data/fetch-api'
-import ProductListItem from './product-list-item';
+import ProductListItemPromo from './product-list-item-promo';
 // import { cartItemsWithQuantities } from './../cart/index';
 
 import './product-list.scss';
@@ -24,7 +24,7 @@ class ProductList extends React.Component {
             {
                 products.slice(5, 9).map((product, i) => (
 
-                    <ProductListItem
+                    <ProductListItemPromo
                         key={i}
                         product={product}
                         addToCart={addToCart}

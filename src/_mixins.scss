@@ -13,22 +13,34 @@
 }
 
 .rotate__45 {
-    transform:rotate(45deg);
+    transform: rotate(45deg);
     width: 4em;
     height: 4em;
+
     div {
         transform: rotate(-45deg)
     }
 }
+
 .is__pointer {
     cursor: pointer;
 }
+
 @mixin padding_1 {
     padding: $grid-gutter-width;
 }
+
 @mixin padding_2 {
     padding: $grid-gutter-width*1.5;
 }
-@mixin borderb($type, $color, $widdth ){
+
+@mixin borderb($type, $color, $widdth) {
     border-bottom: $widdth $type $color;
+}
+
+$my_width: percentage(100/5);
+
+.col-special-5 {
+    width:20% !important;
+    flex: 0 0 20%;
 }

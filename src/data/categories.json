@@ -17,25 +17,85 @@
             "id": 4,
             "name": "Fruits et légumes",
             "img": "./categories/menuFooter-fruitslegumes.jpg",
-            "route": "/fruits-legumes"
+            "route": "/fruits-legumes",
+            "subcategories" : [
+                {
+                    "subcatid": 401,
+                    "subcat_name": "Fruits"
+                },
+                {
+                    "subcatid": 402,
+                    "subcat_name": "Légumes"
+                }
+            ]
         },
         {
             "id": 5,
             "name": "Poissons et viandes",
             "img": "./categories/menuFooter-poisson.jpg",
-            "route": "/poissons-viandes"
+            "route": "/poissons-viandes",
+            "subcategories" : [
+                {
+                    "subcatid": 501,
+                    "subcat_name": "Possons"
+                },
+                {
+                    "subcatid": 502,
+                    "subcat_name": "Viandes"
+                }
+            ]
         },
         {
             "id": 6,
             "name": "Produits laitiers & oeufs",
             "img": "./categories/menuFooter-oeufs.jpg",
-            "route": "/lait-oeufs"
+            "route": "/lait-oeufs",
+            "subcategories" : [
+                {
+                    "subcatid": 601,
+                    "subcat_name": "Laits"
+                },
+                {
+                    "subcatid": 602,
+                    "subcat_name": "Fromages"
+                },
+                {
+                    "subcatid": 603,
+                    "subcat_name": "Desserts"
+                },
+                {
+                    "subcatid": 604,
+                    "subcat_name": "Crèmes fraiches"
+                },
+                {
+                    "subcatid": 605,
+                    "subcat_name": "Oeufs"
+                }
+            ]
         },
         {
             "id": 7,
             "name": "Pains & traiteur",
             "img": "./categories/menuFooter-traiteur.jpg",
-            "route": "/frais-fromages"
+            "route": "/frais-fromages",
+            "subcategories" : [
+                {
+                    "subcatid": 701,
+                    "subcat_name": "Pains"
+                },
+                {
+                    "subcatid": 702,
+                    "subcat_name": "Viennoiseries"
+                },
+                {
+                    "subcatid": 702,
+                    "subcat_name": "Patisseries"
+                },
+                {
+                    "subcatid": 703,
+                    "subcat_name": "Traiteur"
+                }
+            ]
         },
         {
             "id": 8,

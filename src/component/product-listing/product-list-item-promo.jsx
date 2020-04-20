@@ -6,12 +6,12 @@ import { ReactComponent as Basket } from '../buttons/basket.svg';
 
 import { Link } from 'react-router-dom';
 
-export default function ProductListtem(props) {
+export default function ProductListtemPrromo(props) {
 
     const cagnoo = (props.product.cagnottage) ? 'cagnottage' : null;
     //    const thisItemInCart = props.cart.filter(item => item.id === props.product.id)[0];
     return (
-        <div className="col-12 col-special-5 d-flex justify-content-between align-items-baseline flex-column mb-3" key={props.product.id}>
+        <div className="col-12 col-md-3 d-flex justify-content-between align-items-baseline flex-column mb-3" key={props.product.id}>
             <div className="prod">
                 <Link to={`/product/${props.product.id}`}>Link</Link>
                 <img src={props.product.img} alt={props.product.title} className="img-fluid" />

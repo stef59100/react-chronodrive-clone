@@ -44,7 +44,7 @@ class Geoloc extends React.Component {
     return (
       <div className="geoloc-wrapper">
         <div className="geoloc d-flex justify-content-space-evenly">
-          <Collapsible trigger={<Trigger text={this.state.currentStoreName} className="d-flex align-items-start"/>} transitionCloseTime='500'  triggerTagName='div' >
+          <Collapsible trigger={<Trigger text={this.state.currentStoreName}/>} transitionCloseTime='500'  triggerTagName='div' bahavior="hover">
 
           <div className="form">
                 {this.state.storeList.map((store, i) => (

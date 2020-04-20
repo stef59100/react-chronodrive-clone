@@ -22,7 +22,7 @@ class ProductList extends React.Component {
 
         return <div className="products-list row mb-3">
             {
-                products.slice(0, 4).map((product, i) => (
+                products.slice(0, 5).map((product, i) => (
 
                     <ProductListItem
                         key={i}
