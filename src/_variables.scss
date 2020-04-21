@@ -30,3 +30,13 @@ $grid-gutter-width: 8px;
 .lh-12 {
     line-height: 1.2;
 }
+
+$vallMin: 1;
+$valMax: 12;
+
+@for $i from 1 through $valMax {
+    $line-height: $i / $valMax;
+    .lh-#{$i}{
+        line-height: $line-height;
+    }
+}

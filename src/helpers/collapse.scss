@@ -24,3 +24,13 @@
     }
 
 }
+.Collapsible {
+    &__trigger {
+        &.is-closed {
+            //color: red;
+            ~.Collapsible__contentOuter {
+                padding: 0;
+            }           
+        }
+    }
+}
