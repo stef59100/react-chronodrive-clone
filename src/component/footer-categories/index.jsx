@@ -7,7 +7,17 @@ export default function FooterCat(props) {
         {
             props.cat.map(category => (
                 <div className="col cat__item" key={category.id} id={category.id}>
-                    <NavLink catid={category.id} to={category.route} catname={category.name}>
+                   
+                    <NavLink
+                        to={{
+                            pathname: category.route,
+                            state: {
+                                catid:  category.id ,
+                                catname:  category.name ,
+                                subcategories:  category.subcategories ,
+                            }
+                        }}
+                    >
                         <img src={category.img} alt={category.name} />
                         <p>
                             {category.name}

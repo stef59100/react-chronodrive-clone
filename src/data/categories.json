@@ -4,13 +4,33 @@
             "id": 1,
             "name": "Promotions",
             "img": "./categories/menuFooter-promotions.jpg",
-            "route": "/promotions"
+            "route": "/promotions",
+            "subcategories" : [
+                {
+                    "subcatid": 401,
+                    "subcat_name": "Fruits"
+                },
+                {
+                    "subcatid": 402,
+                    "subcat_name": "Légumes"
+                }
+            ]
         },
         {
             "id": 2,
             "name": "Nouveautés",
             "img": "./categories/menuFooter-nouveautes.jpg",
-            "route": "/nouveautes"
+            "route": "/nouveautes",
+            "subcategories" : [
+                {
+                    "subcatid": 401,
+                    "subcat_name": "Fruits"
+                },
+                {
+                    "subcatid": 402,
+                    "subcat_name": "Légumes"
+                }
+            ]
         },
        
         {
@@ -101,55 +121,165 @@
             "id": 8,
             "name": "Surgelés",
             "img": "./categories/menuFooter-surgeles.jpg",
-            "route": "/surgeles"
+            "route": "/surgeles",
+            "subcategories" : [
+                {
+                    "subcatid": 801,
+                    "subcat_name": "Glaces et crèmes glacées"
+                },
+                {
+                    "subcatid": 802,
+                    "subcat_name": "Viennoiseries"
+                },
+                {
+                    "subcatid": 803,
+                    "subcat_name": "Frites"
+                },
+                {
+                    "subcatid": 804,
+                    "subcat_name": "Traiteur surgelé"                
+                },
+                {
+                    "subcatid": 805,
+                    "subcat_name": "légumes"
+                }
+            ]
         },
         {
             "id": 9,
             "name": "Epicerie salée",
             "img": "./categories/menuFooter-epiceriesalee.jpg",
-            "route": "/epicerie-salee"
+            "route": "/epicerie-salee",
+            "subcategories" : [
+                {
+                    "subcatid": 901,
+                    "subcat_name": "Apéritifs"
+                },
+                {
+                    "subcatid": 902,
+                    "subcat_name": "Condiments, sauces, bouillons"
+                },
+                {
+                    "subcatid": 903,
+                    "subcat_name": "Pâtes, riz, semoules"
+                },
+                {
+                    "subcatid": 904,
+                    "subcat_name": "Conserves et plats cuisinés"
+                }
+            ]
         },
         {
             "id": 10,
             "name": "Epicerie sucrée",
             "img": "./categories/menuFooter-epiceriesucree.jpg",
-            "route": "/epicerie-sucree"
+            "route": "/epicerie-sucree",
+            "subcategories" : [
+                {
+                    "subcatid": 401,
+                    "subcat_name": "Fruits"
+                },
+                {
+                    "subcatid": 402,
+                    "subcat_name": "Légumes"
+                }
+            ]
         },
         {
             "id": 11,
             "name": "Boissons",
             "img": "./categories/menuFooter-boissons.jpg",
-            "route": "/boissons"
+            "route": "/boissons",
+            "subcategories" : [
+                {
+                    "subcatid": 401,
+                    "subcat_name": "Fruits"
+                },
+                {
+                    "subcatid": 402,
+                    "subcat_name": "Légumes"
+                }
+            ]
         },
         {
             "id": 12,
             "name": "Bébé",
             "img": "./categories/menuFooter-bebe.jpg",
-            "route": "/bebe"
+            "route": "/bebe",
+            "subcategories" : [
+                {
+                    "subcatid": 401,
+                    "subcat_name": "Fruits"
+                },
+                {
+                    "subcatid": 402,
+                    "subcat_name": "Légumes"
+                }
+            ]
         },
         {
             "id": 13,
             "name": "Hygiène et beauté",
             "img": "./categories/menuFooter-hygienebeaute.jpg",
-            "route": "/hygiene-beaute"
+            "route": "/hygiene-beaute",
+            "subcategories" : [
+                {
+                    "subcatid": 401,
+                    "subcat_name": "Fruits"
+                },
+                {
+                    "subcatid": 402,
+                    "subcat_name": "Légumes"
+                }
+            ]
         },
         {
             "id": 14,
             "name": "Nettoyage & entretien",
             "img": "./categories/menuFooter-nettoyageentretien.jpg",
-            "route": "/nettoyage-entretien"
+            "route": "/nettoyage-entretien",
+            "subcategories" : [
+                {
+                    "subcatid": 401,
+                    "subcat_name": "Fruits"
+                },
+                {
+                    "subcatid": 402,
+                    "subcat_name": "Légumes"
+                }
+            ]
         },
         {
             "id": 15,
             "name": "Maison & loisirs",
             "img": "./categories/menuFooter-maisonloisirs.jpg",
-            "route": "/bebe"
+            "route": "/bebe",
+            "subcategories" : [
+                {
+                    "subcatid": 401,
+                    "subcat_name": "Fruits"
+                },
+                {
+                    "subcatid": 402,
+                    "subcat_name": "Légumes"
+                }
+            ]
         },
         {
             "id": 16,
             "name": "Animaux",
             "img": "./categories/menuFooter-animaux.jpg",
-            "route": "/animaux"
+            "route": "/animaux",
+            "subcategories" : [
+                {
+                    "subcatid": 401,
+                    "subcat_name": "Fruits"
+                },
+                {
+                    "subcatid": 402,
+                    "subcat_name": "Légumes"
+                }
+            ]
         }
     ]
 }

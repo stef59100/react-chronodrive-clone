@@ -1,7 +1,9 @@
 import React from 'react';
-import ProductListFilter from '../component/product-listing/product-list-filter';
+import CategoryListFilter from '../component/category/category-list-filter';
 
 import { Helmet } from 'react-helmet';
+import catData from '../data/categories.json';
+import FooterCat from './../component/footer-categories/index';
 
 
  export default function CategoryPage(props) {     
@@ -13,8 +15,10 @@ import { Helmet } from 'react-helmet';
                 <title>{props.catname}</title>
             </Helmet>
             <h1>{props.catname}</h1>
-            <ProductListFilter catid={props.catid} />
+            <CategoryListFilter catid={props.catid} />
+            <FooterCat cat={catData.categories}></FooterCat>
         </div>
         )
     
 }
+ 

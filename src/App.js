@@ -5,6 +5,7 @@ import { connect } from 'react-redux';
 
 // import Extras from './component/extras';
 import TopArea from './component/top';
+import CartHeader from './component/cart-header';
 import SearchForm from './component/search-form/search-form';
 import HeaderNav from './component/header-nav/header-nav';
 import Logo from './component/logo';
@@ -44,7 +45,8 @@ class App extends React.Component {
               </div>
 
               <SearchForm />
-              <HeaderNav {...this.props}></HeaderNav>
+              <HeaderNav ></HeaderNav>
+              <CartHeader {...this.props}></CartHeader>
             </div>
           </div>
         </div>

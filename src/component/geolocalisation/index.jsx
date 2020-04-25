@@ -44,12 +44,11 @@ class Geoloc extends React.Component {
     return (
       <div className="geoloc-wrapper">
         <div className="geoloc d-flex justify-content-space-evenly">
-          <Collapsible trigger={<Trigger text={this.state.currentStoreName}/>} transitionCloseTime='500'  triggerTagName='div' bahavior="hover">
+          <Collapsible trigger={<Trigger text={this.state.currentStoreName}/>} transitionCloseTime={500}  triggerTagName='div' bahavior="hover">
 
           <div className="form">
                 {this.state.storeList.map((store, i) => (
-                  <div key={i} className="store__list__item">
-                    
+                  <div key={i} className="store__list__item">                    
                     <label className="radio-container d-flex" htmlFor={`option_${store.id}`}>
                         <span>{store.cp} - {store.name}</span>
                       <input type="radio"
@@ -60,7 +59,7 @@ class Geoloc extends React.Component {
                         checked={this.state.selectedOption === `${store.name} - ${store.address}`}
                         onChange={this.handleOptionChange}
                       />
-                      <span class="checkmark"></span>
+                      <span className="checkmark"></span>
                       
                       </label>
                     

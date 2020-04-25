@@ -4,8 +4,8 @@ class TopArea extends React.Component {
     constructor(props) {
         super(props)
         this.state = {
-            greet: "Hello",
-            user: " Stéphane Joos",
+            greet: "Bonjour",
+            user: "Stéphane Joos",
             info: 'xxxx-xxxx-xxx'
         }
     }
@@ -13,13 +13,13 @@ class TopArea extends React.Component {
     render() {
         return (
             <div className="toparea">
-            <div className="container">
-                <div className=" row d-flex justify-content-between p-3">
-                    <p>{this.state.greet} {this.state.user}</p>
-                    <p>{this.state.info}</p>
+                <div className="container">
+                    <div className=" row d-flex justify-content-between p-3">
+                        <p>{this.state.greet} {this.state.user}</p>
+                        <p>{this.state.info}</p>
                     </div>
-            </div>
                 </div>
+            </div>
         )
     }
 

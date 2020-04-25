@@ -1,0 +1,111 @@
+@import '../../mixins';
+
+.prod {
+    &__desc {
+        min-height: 180px;
+    }
+
+    &__extras {
+        position: absolute;
+        top: 0;
+        right: 0;
+        display: flex;
+        justify-content: flex-end;
+        padding: 6px;
+        color: $lightest;
+        font-weight: bold;
+        z-index: 1;
+        overflow:hidden;
+        width: 100%;
+        height: 70px;
+
+        &__flag {
+            display: flex;
+            justify-content: flex-end;
+            font-family: 'Roboto Condensed';
+           
+            width: 66px;
+            height: 50px;          
+            text-transform: uppercase;
+            color: #fff;
+
+            &:before {
+                background-color: $red;
+                color: $lightest;
+                content: '';
+                position: absolute;
+                top: -66px;
+                right: -90px;
+                z-index: -1;
+                width: 132px;
+                height: 132px;
+                -webkit-transform: rotate(45deg);
+                transform: rotate(45deg);
+            }
+            &__inner {
+                width: 60%;
+                text-align: right;
+            }
+
+        }
+
+
+    }
+
+    &__price__container {
+        @include border;
+
+        &__price {
+            background-color: $red;
+            color: $lightest;
+            padding: 0.5em;
+            font-weight: bold;
+            flex-grow: 2;
+            text-align: center;
+            font-size: 1.25em;
+
+            p {
+                margin: 0;
+                line-height: 0.8;
+            }
+
+        }
+
+        &__extras {
+            font-family: 'Roboto Condensed';
+            font-size: 0.9em;
+            padding: 0.5em;
+            flex-grow: 1;
+
+            p {
+                margin: 0;
+                line-height: 1;
+            }
+
+            .message {
+                color: $red;
+                font-weight: bold;
+            }
+        }
+
+        &.cagnottage {
+            .prod__price__container__price {
+                background-color: $cagn;
+            }
+
+            & .prod__price__container__extras {
+                .message {
+                    color: $cagn;
+                }
+            }
+
+
+        }
+    }
+
+}
+
+.strikethrough {
+    font-weight: normal;
+
+}

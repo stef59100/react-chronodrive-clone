@@ -3,10 +3,12 @@
 .navbar {
     .nav-item {
         margin: auto 6px;
+        width: 64px;
+        height: 64px;
       
         &.basket-2,
         &.cart {
-            @include border-rad(50px);
+         
         }
 
         a.nav-link {
@@ -21,10 +23,10 @@
             }
 
             svg {
-                width: 48px;
-                height: 48px;
+
+               @include svg-dim;
                 fill: $lightest;
-                padding: 8px;
+                
             }
         }
 
@@ -52,19 +54,22 @@
             @include full-circle;
             background-color: $red;
             svg {}
-        }
-
-        &.cart {
-            border: 2px solid $green;
-            min-width: 160px;
-            a.nav-link {
-                color: $green;
-                font-size: 1.25rem;
-            }
-            svg {
-                fill: $green !important;
-            }
-        }
-
+        }        
     }
 }
+.cart {
+    @include border-rad(50px);
+    border: 2px solid $green;
+    min-width: 160px;
+    a.nav-link {
+        color: $green;
+        font-size: 1.25rem;
+    }
+    svg {
+        @include svg-dim;
+
+        fill: $green !important;
+    }
+}
+
+

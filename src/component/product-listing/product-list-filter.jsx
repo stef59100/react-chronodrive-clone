@@ -20,7 +20,7 @@ class ProductListFilter extends React.Component {
         const { addToCart, removeFromCart, products, cart} = this.props;
 
         let filteredProds = products.filter((item) => (
-            item.cat_id === this.props.catid
+            item.id === this.props.catid
         ))
 
         return <div className="products-list row mb-3">

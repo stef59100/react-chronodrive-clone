@@ -1,3 +1,9 @@
+
+$theme-colors: (
+  "primary": #8CAA0A,
+  "danger": #ff4136
+);
+
 @import '../node_modules/bootstrap/scss/bootstrap.scss';
 @import './_fonts';
 @import './_variables';
@@ -49,5 +55,11 @@ h1 {
 
     .app {
         background-color: $lightest;
+    }
+}
+@include media-breakpoint-up(md) {
+    .col-special-5 {
+        width: 20% !important;
+        flex: 0 0 20%;
     }
 }
