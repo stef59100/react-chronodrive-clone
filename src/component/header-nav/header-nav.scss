@@ -3,73 +3,68 @@
 .navbar {
     .nav-item {
         margin: auto 6px;
-        width: 64px;
-        height: 64px;
-      
-        &.basket-2,
-        &.cart {
-         
+
+        .menu_icon {
+            width: 64px;
+            height: 64px;
+            line-height: 64px;
+            text-align: center;
+            @include full-circle;
+            &.percent {
+                background-color: $red;
+            }
+            &.basket-2 {
+                background-color: $green;
+            }
+            &.star {               
+                background-color: $gold;
+            }
+            &.click {               
+                background-color: $brown;
+            }
+            &.user {                
+                background-color: $lightest;
+                border: 2px solid $dark;
+                svg {
+                    fill: $dark !important;
+                }
+            }
         }
 
         a.nav-link {
             color: $lightest;
+            text-align: center;
 
             &.active {
                 color: $lightest;
 
-                &.home  {
+                &.home {
                     color: blue !important;
                 }
             }
 
             svg {
 
-               @include svg-dim;
+                @include svg-dim;
                 fill: $lightest;
-                
+
             }
         }
-
-        &.basket-2 {
-            background-color: $green;
-        }
-        &.star {
-            @include full-circle;
-            background-color: $gold;
-        }
-        &.click {
-            @include full-circle;
-            background-color: $brown;
-        }
-        &.user {
-            @include full-circle;
-            background-color: $lightest;
-            border: 2px solid $dark;
-            svg {
-                fill:$dark !important;
-            }
-        }
-
-        &.percent {
-            @include full-circle;
-            background-color: $red;
-            svg {}
-        }        
     }
 }
+
 .cart {
     @include border-rad(50px);
     border: 2px solid $green;
     min-width: 160px;
+
     a.nav-link {
         color: $green;
         font-size: 1.25rem;
     }
+
     svg {
         @include svg-dim;
-
         fill: $green !important;
     }
 }
-
-

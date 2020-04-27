@@ -26,31 +26,43 @@ import { Navbar, Nav } from 'react-bootstrap';
 
 const HeaderNav = () => {
     return (
-       
-            <Navbar bg="light" expand="lg">
-                <Navbar.Brand href="#home"></Navbar.Brand>
-                <Navbar.Toggle aria-controls="basic-navbar-nav" className='bg-primary text-white'/>
-                <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="mr-auto">
-                        <Nav.Item as="li" >
-                            <NavLink to="/" className='nav-link'>Home</NavLink>
-                        </Nav.Item>
-                        <Nav.Item as="li" className='percent'>
-                            <NavLink to="/promos" className="nav-link"><Percent /></NavLink>
-                        </Nav.Item>
-                        <Nav.Item as="li" className='star'>
-                            <NavLink to="/promos" className="nav-link"><Star /></NavLink>
-                        </Nav.Item>
-                        <Nav.Item as="li" className='click'>
-                            <NavLink to="/promos" className="nav-link" ><Click /></NavLink> </Nav.Item>
-                        <Nav.Item as="li" className='user'>
-                            <NavLink to="/promos" className="nav-link"><User /></NavLink></Nav.Item>
-                    </Nav>
-                </Navbar.Collapse>
-            </Navbar>
-           
 
-      
+        <Navbar bg="light" expand="lg" className="col-12 col-md-4">
+           
+            <Navbar.Toggle aria-controls="basic-navbar-nav" className='bg-primary text-white' />
+            <Navbar.Collapse id="basic-navbar-nav">
+                <Nav className="mr-auto bg-primary-down-md">
+                  
+                    <Nav.Item as="li">
+                        <NavLink to="/promos" className="nav-link">
+                            <div className="menu_icon percent"><Percent /></div>
+
+                            <span>Promotions</span></NavLink>
+                    </Nav.Item>
+                    <Nav.Item as="li">
+                        <NavLink to="/promos" className="nav-link">
+                            <div className="menu_icon star"> <Star /></div>
+                            <span>Favoris</span>
+                        </NavLink>
+                    </Nav.Item>
+                    <Nav.Item as="li" >
+                        <NavLink to="/promos" className="nav-link" >
+                            <div className="menu_icon click"> <Click /></div>
+                            <span>En 1 clic</span>
+                        </NavLink>
+                    </Nav.Item>
+                    <Nav.Item as="li" >
+                        <NavLink to="/promos" className="nav-link">
+                            <div className="menu_icon user"><User /></div>
+                            <span>Mon compte</span>
+                        </NavLink>
+                    </Nav.Item>
+                </Nav>
+            </Navbar.Collapse>
+        </Navbar>
+
+
+
 
     )
 }

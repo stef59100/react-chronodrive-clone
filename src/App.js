@@ -41,7 +41,7 @@ class App extends React.Component {
               <div className="col">
                 <Logo className="h logo" />
                 <Geoloc />
-               
+
               </div>
 
               <SearchForm />
@@ -51,8 +51,9 @@ class App extends React.Component {
           </div>
         </div>
         <div className="app container">
-          <header className="app-header row">
-            <h1 className="col">ProductDrive - Look like chronodrive</h1>
+          <header className="app-header">
+            <h1>ProductDrive - Look like chronodrive</h1>
+            <p>Dans le cadre de mon apprentissage du framework ReactJs, je me suis fixé pour objectif de créer un clone du site chronodrive, wip disponible ici : <a href="https://github.com/stef59100/react-chronodrive-clone">Lien github</a></p>
           </header>
           <Router />
         </div>

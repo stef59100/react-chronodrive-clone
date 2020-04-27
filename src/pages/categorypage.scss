@@ -1,0 +1,42 @@
+
+@import '../_variables';
+
+.navcatpage {
+    &__item {
+
+        position: relative;
+
+        a.invert {
+            padding: 16px;
+            display: block;
+            &:hover {
+                color: $lightest;
+                background-color: $green;
+                text-decoration: none;
+                border-radius: 8px;               
+            }
+        }
+        &:before {
+            content: '';
+        display: block;
+        height: 70%;
+        position: absolute;
+        top: 50%;
+        left: 8px;
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+        border-left: 1px solid #c2c2c2;
+        }
+        
+
+
+    }
+
+
+
+
+}
+
+
+
+

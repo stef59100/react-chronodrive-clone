@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
 import './footer-cat.scss';
 
 export default function FooterCat(props) {
@@ -7,22 +7,12 @@ export default function FooterCat(props) {
         {
             props.cat.map(category => (
                 <div className="col cat__item" key={category.id} id={category.id}>
-                   
-                    <NavLink
-                        to={{
-                            pathname: category.route,
-                            state: {
-                                catid:  category.id ,
-                                catname:  category.name ,
-                                subcategories:  category.subcategories ,
-                            }
-                        }}
-                    >
+                    <Link to={`/category/${category.name}`}>
                         <img src={category.img} alt={category.name} />
                         <p>
                             {category.name}
                         </p>
-                    </NavLink>
+                    </Link>
 
                 </div>
             ))}
