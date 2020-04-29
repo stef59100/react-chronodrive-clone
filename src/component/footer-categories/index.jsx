@@ -7,7 +7,7 @@ export default function FooterCat(props) {
         {
             props.cat.map(category => (
                 <div className="col cat__item" key={category.id} id={category.id}>
-                    <Link to={`/category/${category.name}`}>
+                    <Link to={`/category/${category.route}`}>
                         <img src={category.img} alt={category.name} />
                         <p>
                             {category.name}

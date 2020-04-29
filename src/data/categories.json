@@ -12,34 +12,24 @@
                     "img": "/categories/niveau3/niv3-bieres-cidres.jpg",
                     "segmentations": [
                         {
-                            "seg_id": 10101,
-                            "seg_name": "Eaux de sources et eaux minérales",
-                            "seg_slug": "eaux-sources-minerales"
+                            "seg_id": 1101,
+                            "seg_name": "Fruits frais",
+                            "seg_slug": "fruits-frais"
                         },
                         {
-                            "seg_id": 10102,
-                            "seg_name": "Eaux gazeuses",
-                            "seg_slug": "eaux-gazeuses"
+                            "seg_id": 1102,
+                            "seg_name": "Fruits bios",
+                            "seg_slug": "fruits-bios"
                         },
                         {
-                            "seg_id": 110103,
-                            "seg_name": "Eaux aromatisées",
-                            "seg_slug": "eaux-aromatisees"
+                            "seg_id": 1103,
+                            "seg_name": "Fruits secs et graines",
+                            "seg_slug": "fruits-secs-graines"
                         },
                         {
-                            "seg_id": 110104,
-                            "seg_name": "Goûters et nomades",
-                            "seg_slug": "gouters-nomades"
-                        },
-                        {
-                            "seg_id": 110105,
-                            "seg_name": "Laits et boissons lactées",
-                            "seg_slug": "boissons-lactees"
-                        },
-                        {
-                            "seg_id": 110106,
-                            "seg_name": "boissons végétales",
-                            "seg_slug": "boissons-vegetales"
+                            "seg_id": 1104,
+                            "seg_name": "Fruits surgelés",
+                            "seg_slug": "fruits-surgelés"
                         }
                     ]
                 },
@@ -176,34 +166,24 @@
                     "img": "/categories/niveau3/niv3-bieres-cidres.jpg",
                     "segmentations": [
                         {
-                            "seg_id": 110101,
-                            "seg_name": "Eaux de sources et eaux minérales",
-                            "seg_slug": "eaux-sources-minerales"
+                            "seg_id": 40101,
+                            "seg_name": "Fruits frais",
+                            "seg_slug": "fruits-frais"
                         },
                         {
-                            "seg_id": 110102,
-                            "seg_name": "Eaux gazeuses",
-                            "seg_slug": "eaux-gazeuses"
+                            "seg_id": 40102,
+                            "seg_name": "Fruits bios",
+                            "seg_slug": "fruits-bios"
                         },
                         {
-                            "seg_id": 110103,
-                            "seg_name": "Eaux aromatisées",
-                            "seg_slug": "eaux-aromatisees"
+                            "seg_id": 40103,
+                            "seg_name": "Fruits secs et graines",
+                            "seg_slug": "fruits-secs-graines"
                         },
                         {
-                            "seg_id": 110104,
-                            "seg_name": "Goûters et nomades",
-                            "seg_slug": "gouters-nomades"
-                        },
-                        {
-                            "seg_id": 110105,
-                            "seg_name": "Laits et boissons lactées",
-                            "seg_slug": "boissons-lactees"
-                        },
-                        {
-                            "seg_id": 110106,
-                            "seg_name": "boissons végétales",
-                            "seg_slug": "boissons-vegetales"
+                            "seg_id": 40104,
+                            "seg_name": "Fruits surgelés",
+                            "seg_slug": "fruits-surgelés"
                         }
                     ]
                 },
@@ -213,34 +193,29 @@
                     "img": "/categories/niveau3/niv3-bieres-cidres.jpg",
                     "segmentations": [
                         {
-                            "seg_id": 110101,
-                            "seg_name": "Eaux de sources et eaux minérales",
-                            "seg_slug": "eaux-sources-minerales"
+                            "seg_id": 40201,
+                            "seg_name": "Légumes frais",
+                            "seg_slug": "legumes-frais"
                         },
                         {
-                            "seg_id": 110102,
-                            "seg_name": "Eaux gazeuses",
-                            "seg_slug": "eaux-gazeuses"
+                            "seg_id": 40202,
+                            "seg_name": "Légumes bios",
+                            "seg_slug": "legumes-bios"
                         },
                         {
-                            "seg_id": 110103,
-                            "seg_name": "Eaux aromatisées",
-                            "seg_slug": "eaux-aromatisees"
+                            "seg_id": 40203,
+                            "seg_name": "Prêts à l'emploi",
+                            "seg_slug": "prets-a-emploi"
                         },
                         {
-                            "seg_id": 110104,
-                            "seg_name": "Goûters et nomades",
-                            "seg_slug": "gouters-nomades"
+                            "seg_id": 40204,
+                            "seg_name": "Soupes fraîches",
+                            "seg_slug": "soupes-fraiches"
                         },
                         {
-                            "seg_id": 110105,
-                            "seg_name": "Laits et boissons lactées",
-                            "seg_slug": "boissons-lactees"
-                        },
-                        {
-                            "seg_id": 110106,
-                            "seg_name": "boissons végétales",
-                            "seg_slug": "boissons-vegetales"
+                            "seg_id": 40205,
+                            "seg_name": "Légumes decs",
+                            "seg_slug": "legumes-secs"
                         }
                     ]
                 }
@@ -258,71 +233,61 @@
                     "img": "/categories/niveau3/niv3-bieres-cidres.jpg",
                     "segmentations": [
                         {
-                            "seg_id": 110101,
-                            "seg_name": "Eaux de sources et eaux minérales",
-                            "seg_slug": "eaux-sources-minerales"
+                            "seg_id": 50101,
+                            "seg_name": "Filets et pavés de poissons",
+                            "seg_slug": "poissons-frais"
                         },
                         {
-                            "seg_id": 110102,
-                            "seg_name": "Eaux gazeuses",
-                            "seg_slug": "eaux-gazeuses"
+                            "seg_id": 501102,
+                            "seg_name": "Crevettes et crustacés",
+                            "seg_slug": "crevettes-et-crustaces"
                         },
                         {
-                            "seg_id": 110103,
-                            "seg_name": "Eaux aromatisées",
-                            "seg_slug": "eaux-aromatisees"
-                        },
-                        {
-                            "seg_id": 110104,
-                            "seg_name": "Goûters et nomades",
-                            "seg_slug": "gouters-nomades"
-                        },
-                        {
-                            "seg_id": 110105,
-                            "seg_name": "Laits et boissons lactées",
-                            "seg_slug": "boissons-lactees"
-                        },
-                        {
-                            "seg_id": 110106,
-                            "seg_name": "boissons végétales",
-                            "seg_slug": "boissons-vegetales"
+                            "seg_id": 501103,
+                            "seg_name": "Moules et autres coquillages",
+                            "seg_slug": "moules-et-autres-coquillages"
                         }
                     ]
                 },
                 {
-                    "subcatid": 502,
-                    "subcat_name": "Viandes",
+                    "subcatid": 503,
+                    "subcat_name": "Boucherie",
                     "img": "/categories/niveau3/niv3-bieres-cidres.jpg",
                     "segmentations": [
                         {
-                            "seg_id": 110101,
-                            "seg_name": "Eaux de sources et eaux minérales",
-                            "seg_slug": "eaux-sources-minerales"
+                            "seg_id": 50301,
+                            "seg_name": "Grillades et barbecue",
+                            "seg_slug": "grillades-et-barbecue"
                         },
                         {
-                            "seg_id": 110102,
-                            "seg_name": "Eaux gazeuses",
-                            "seg_slug": "eaux-gazeuses"
+                            "seg_id": 50302,
+                            "seg_name": "Boeuf",
+                            "seg_slug": "boeuf"
                         },
                         {
-                            "seg_id": 110103,
-                            "seg_name": "Eaux aromatisées",
-                            "seg_slug": "eaux-aromatisees"
+                            "seg_id": 50303,
+                            "seg_name": "Viandes hachées",
+                            "seg_slug": "viandes-hachees"
                         },
                         {
-                            "seg_id": 110104,
-                            "seg_name": "Goûters et nomades",
-                            "seg_slug": "gouters-nomades"
+                            "seg_id": 50304,
+                            "seg_name": "Porc",
+                            "seg_slug": "porc"
                         },
                         {
-                            "seg_id": 110105,
-                            "seg_name": "Laits et boissons lactées",
-                            "seg_slug": "boissons-lactees"
+                            "seg_id": 50305,
+                            "seg_name": "Veau, agneau et autres viandes",
+                            "seg_slug": "veau-agneau-et-autres-viandes"
                         },
                         {
-                            "seg_id": 110106,
-                            "seg_name": "boissons végétales",
-                            "seg_slug": "boissons-vegetales"
+                            "seg_id": 50306,
+                            "seg_name": "Saucisserie et farce",
+                            "seg_slug": "saucisserie-et-farce"
+                        },
+                        {
+                            "seg_id": 50307,
+                            "seg_name": "Plats préparés",
+                            "seg_slug": "plats-prepares"
                         }
                     ]
                 }
@@ -336,38 +301,43 @@
             "subcategories": [
                 {
                     "subcatid": 601,
-                    "subcat_name": "Laits",
+                    "subcat_name": "Crèmerie, oeufs, laits",
                     "img": "/categories/niveau3/niv3-bieres-cidres.jpg",
                     "segmentations": [
                         {
-                            "seg_id": 110101,
-                            "seg_name": "Eaux de sources et eaux minérales",
-                            "seg_slug": "eaux-sources-minerales"
+                            "seg_id": 60101,
+                            "seg_name": "crèmerie Bio",
+                            "seg_slug": "cremerie-bio"
                         },
                         {
-                            "seg_id": 110102,
-                            "seg_name": "Eaux gazeuses",
-                            "seg_slug": "eaux-gazeuses"
+                            "seg_id": 60102,
+                            "seg_name": "Beurre",
+                            "seg_slug": "beurre"
                         },
                         {
-                            "seg_id": 110103,
-                            "seg_name": "Eaux aromatisées",
-                            "seg_slug": "eaux-aromatisees"
+                            "seg_id": 60103,
+                            "seg_name": "Oeufs",
+                            "seg_slug": "oeufs"
                         },
                         {
-                            "seg_id": 110104,
-                            "seg_name": "Goûters et nomades",
-                            "seg_slug": "gouters-nomades"
+                            "seg_id": 60104,
+                            "seg_name": "Crèmes fraîches et aides culinaires",
+                            "seg_slug": "Crèmes fraîches et aides culinaires"
                         },
                         {
-                            "seg_id": 110105,
+                            "seg_id": 60105,
                             "seg_name": "Laits et boissons lactées",
                             "seg_slug": "boissons-lactees"
                         },
                         {
-                            "seg_id": 110106,
+                            "seg_id": 60106,
                             "seg_name": "boissons végétales",
                             "seg_slug": "boissons-vegetales"
+                        },
+                        {
+                            "seg_id": 60107,
+                            "seg_name": "Margarines",
+                            "seg_slug": "margarines"
                         }
                     ]
                 },
@@ -377,34 +347,49 @@
                     "img": "/categories/niveau3/niv3-bieres-cidres.jpg",
                     "segmentations": [
                         {
-                            "seg_id": 110101,
-                            "seg_name": "Eaux de sources et eaux minérales",
-                            "seg_slug": "eaux-sources-minerales"
+                            "seg_id": 60201,
+                            "seg_name": "Fromages bios",
+                            "seg_slug": "fromages-bios"
                         },
                         {
-                            "seg_id": 110102,
-                            "seg_name": "Eaux gazeuses",
-                            "seg_slug": "eaux-gazeuses"
+                            "seg_id": 60202,
+                            "seg_name": "Mozarella, feta, et fromages de brebis en dés",
+                            "seg_slug": "mozarella-feta-et-fromages-de-brebis-en-des"
                         },
                         {
-                            "seg_id": 110103,
-                            "seg_name": "Eaux aromatisées",
-                            "seg_slug": "eaux-aromatisees"
+                            "seg_id": 60203,
+                            "seg_name": "Fromages à la coupe",
+                            "seg_slug": "fromages-a-la-coupe"
                         },
                         {
-                            "seg_id": 110104,
-                            "seg_name": "Goûters et nomades",
-                            "seg_slug": "gouters-nomades"
+                            "seg_id": 60204,
+                            "seg_name": "Apéritifs, salades et tartinables",
+                            "seg_slug": "aperitifs-salades-et-tartinables"
                         },
                         {
-                            "seg_id": 110105,
-                            "seg_name": "Laits et boissons lactées",
-                            "seg_slug": "boissons-lactees"
+                            "seg_id": 60205,
+                            "seg_name": "Râpés tranchés",
+                            "seg_slug": "rapes-tranches"
                         },
                         {
-                            "seg_id": 110106,
-                            "seg_name": "boissons végétales",
-                            "seg_slug": "boissons-vegetales"
+                            "seg_id": 60206,
+                            "seg_name": "Emmental, Comté, Gouda Bloc",
+                            "seg_slug": "emmental-comte-gouda-bloc"
+                        },
+                        {
+                            "seg_id": 60207,
+                            "seg_name": "Camemberts, Coulommiers, Brie",
+                            "seg_slug": "camemberts-coulommiers-brie"
+                        },
+                        {
+                            "seg_id": 60208,
+                            "seg_name": "Fromages de chèvre, roquefort, bleu",
+                            "seg_slug": "fromages-de-chevre-roquefort-bleu"
+                        },
+                        {
+                            "seg_id": 60209,
+                            "seg_name": "Fromages pour enfant",
+                            "seg_slug": "fromages-pour-enfant"
                         }
                     ]
                 },
@@ -414,108 +399,49 @@
                     "img": "/categories/niveau3/niv3-bieres-cidres.jpg",
                     "segmentations": [
                         {
-                            "seg_id": 110101,
-                            "seg_name": "Eaux de sources et eaux minérales",
-                            "seg_slug": "eaux-sources-minerales"
+                            "seg_id": 60301,
+                            "seg_name": "Yaourts et desserts bios",
+                            "seg_slug": "yaourts-et-dessers-bios"
                         },
                         {
-                            "seg_id": 110102,
-                            "seg_name": "Eaux gazeuses",
-                            "seg_slug": "eaux-gazeuses"
+                            "seg_id": 60302,
+                            "seg_name": "Yaourts natures et fromages blancs",
+                            "seg_slug": "yaourts-natures-et-fromages-blancs"
                         },
                         {
-                            "seg_id": 110103,
-                            "seg_name": "Eaux aromatisées",
-                            "seg_slug": "eaux-aromatisees"
+                            "seg_id": 60303,
+                            "seg_name": "Végétal, chèvre et brebis",
+                            "seg_slug": "vegetal-chevre-et-brebis"
                         },
                         {
-                            "seg_id": 110104,
-                            "seg_name": "Goûters et nomades",
-                            "seg_slug": "gouters-nomades"
+                            "seg_id": 60304,
+                            "seg_name": "Allégés et bien-être",
+                            "seg_slug": "alleges-et-bien-etre"
                         },
                         {
-                            "seg_id": 110105,
-                            "seg_name": "Laits et boissons lactées",
-                            "seg_slug": "boissons-lactees"
+                            "seg_id": 60305,
+                            "seg_name": "Compotes fraîches",
+                            "seg_slug": "compotes-fraiches"
                         },
                         {
-                            "seg_id": 110106,
-                            "seg_name": "boissons végétales",
-                            "seg_slug": "boissons-vegetales"
-                        }
-                    ]
-                },
-                {
-                    "subcatid": 604,
-                    "subcat_name": "Crèmes fraiches",
-                    "img": "/categories/niveau3/niv3-bieres-cidres.jpg",
-                    "segmentations": [
-                        {
-                            "seg_id": 110101,
-                            "seg_name": "Eaux de sources et eaux minérales",
-                            "seg_slug": "eaux-sources-minerales"
+                            "seg_id": 60306,
+                            "seg_name": "Yaourts aux fruits et aromatisés",
+                            "seg_slug": "yaourts-aux-fruits-et-aromatises"
                         },
                         {
-                            "seg_id": 110102,
-                            "seg_name": "Eaux gazeuses",
-                            "seg_slug": "eaux-gazeuses"
+                            "seg_id": 60307,
+                            "seg_name": "Yaourts à boire et desserts enfants",
+                            "seg_slug": "yaourts-a-boire-et-desserts-enfants"
                         },
                         {
-                            "seg_id": 110103,
-                            "seg_name": "Eaux aromatisées",
-                            "seg_slug": "eaux-aromatisees"
+                            "seg_id": 60308,
+                            "seg_name": "Crèmes desserts, mousses et liègeois",
+                            "seg_slug": "cremes-desserts-mousses-et-liegeois"
                         },
                         {
-                            "seg_id": 110104,
-                            "seg_name": "Goûters et nomades",
-                            "seg_slug": "gouters-nomades"
-                        },
-                        {
-                            "seg_id": 110105,
-                            "seg_name": "Laits et boissons lactées",
-                            "seg_slug": "boissons-lactees"
-                        },
-                        {
-                            "seg_id": 110106,
-                            "seg_name": "boissons végétales",
-                            "seg_slug": "boissons-vegetales"
-                        }
-                    ]
-                },
-                {
-                    "subcatid": 605,
-                    "subcat_name": "Oeufs",
-                    "img": "/categories/niveau3/niv3-bieres-cidres.jpg",
-                    "segmentations": [
-                        {
-                            "seg_id": 110101,
-                            "seg_name": "Eaux de sources et eaux minérales",
-                            "seg_slug": "eaux-sources-minerales"
-                        },
-                        {
-                            "seg_id": 110102,
-                            "seg_name": "Eaux gazeuses",
-                            "seg_slug": "eaux-gazeuses"
-                        },
-                        {
-                            "seg_id": 110103,
-                            "seg_name": "Eaux aromatisées",
-                            "seg_slug": "eaux-aromatisees"
-                        },
-                        {
-                            "seg_id": 110104,
-                            "seg_name": "Goûters et nomades",
-                            "seg_slug": "gouters-nomades"
-                        },
-                        {
-                            "seg_id": 110105,
-                            "seg_name": "Laits et boissons lactées",
-                            "seg_slug": "boissons-lactees"
-                        },
-                        {
-                            "seg_id": 110106,
-                            "seg_name": "boissons végétales",
-                            "seg_slug": "boissons-vegetales"
+                            "seg_id": 60309,
+                            "seg_name": "Desserts gourmands",
+                            "seg_slug": "desserts-gourmands"
                         }
                     ]
                 }
@@ -525,7 +451,7 @@
             "id": 7,
             "name": "Pains & traiteur",
             "img": "./categories/menuFooter-traiteur.jpg",
-            "route": "frais-fromages",
+            "route": "boulangerie-patisserie-traiteur",
             "subcategories": [
                 {
                     "subcatid": 701,
@@ -533,145 +459,108 @@
                     "img": "/categories/niveau3/niv3-bieres-cidres.jpg",
                     "segmentations": [
                         {
-                            "seg_id": 110101,
-                            "seg_name": "Eaux de sources et eaux minérales",
-                            "seg_slug": "eaux-sources-minerales"
+                            "seg_id": 70101,
+                            "seg_name": "Pains bios",
+                            "seg_slug": "Pains bios"
                         },
                         {
-                            "seg_id": 110102,
-                            "seg_name": "Eaux gazeuses",
-                            "seg_slug": "eaux-gazeuses"
+                            "seg_id": 70102,
+                            "seg_name": "Pains précuits",
+                            "seg_slug": "Pains précuits"
                         },
                         {
-                            "seg_id": 110103,
-                            "seg_name": "Eaux aromatisées",
-                            "seg_slug": "eaux-aromatisees"
+                            "seg_id": 70103,
+                            "seg_name": "Pains de mie",
+                            "seg_slug": "Pains de mie"
                         },
                         {
-                            "seg_id": 110104,
-                            "seg_name": "Goûters et nomades",
-                            "seg_slug": "gouters-nomades"
+                            "seg_id": 70104,
+                            "seg_name": "Toasts, blinis",
+                            "seg_slug": "Toasts, blinis"
                         },
                         {
-                            "seg_id": 110105,
-                            "seg_name": "Laits et boissons lactées",
-                            "seg_slug": "boissons-lactees"
+                            "seg_id": 70105,
+                            "seg_name": "Brioches, pains au lait",
+                            "seg_slug": "Brioches, pains au lait"
                         },
                         {
-                            "seg_id": 110106,
-                            "seg_name": "boissons végétales",
-                            "seg_slug": "boissons-vegetales"
+                            "seg_id": 70106,
+                            "seg_name": "Pâtisseries et viennoiseries",
+                            "seg_slug": "Pâtisseries et viennoiseries"
                         }
                     ]
                 },
                 {
                     "subcatid": 702,
-                    "subcat_name": "Viennoiseries",
+                    "subcat_name": "Traiteur",
                     "img": "/categories/niveau3/niv3-bieres-cidres.jpg",
                     "segmentations": [
                         {
-                            "seg_id": 110101,
-                            "seg_name": "Eaux de sources et eaux minérales",
-                            "seg_slug": "eaux-sources-minerales"
+                            "seg_id": 70201,
+                            "seg_name": "traiteur traditionnel",
+                            "seg_slug": "traiteur-traditionnel"
                         },
                         {
-                            "seg_id": 110102,
-                            "seg_name": "Eaux gazeuses",
-                            "seg_slug": "eaux-gazeuses"
+                            "seg_id": 70202,
+                            "seg_name": "Traiteur apéritif",
+                            "seg_slug": "traiteur-aperitif"
                         },
                         {
-                            "seg_id": 110103,
-                            "seg_name": "Eaux aromatisées",
-                            "seg_slug": "eaux-aromatisees"
+                            "seg_id": 70203,
+                            "seg_name": "Salades",
+                            "seg_slug": "Salades"
                         },
                         {
-                            "seg_id": 110104,
-                            "seg_name": "Goûters et nomades",
-                            "seg_slug": "gouters-nomades"
+                            "seg_id": 70204,
+                            "seg_name": "Pâtes fraîches, gnocchis, quenellesPizzas, quiches, tartes",
+                            "seg_slug": "pates-fraiches-gnocchis-quenelles-pizzas-quiches-tartes"
                         },
                         {
-                            "seg_id": 110105,
-                            "seg_name": "Laits et boissons lactées",
-                            "seg_slug": "boissons-lactees"
+                            "seg_id": 70205,
+                            "seg_name": "Pizzas, quiches, tartes",
+                            "seg_slug": "pizzas-quiches-tartes"
                         },
                         {
-                            "seg_id": 110106,
-                            "seg_name": "boissons végétales",
-                            "seg_slug": "boissons-vegetales"
-                        }
-                    ]
-                },
-                {
-                    "subcatid": 702,
-                    "subcat_name": "Patisseries",
-                    "img": "/categories/niveau3/niv3-bieres-cidres.jpg",
-                    "segmentations": [
-                        {
-                            "seg_id": 110101,
-                            "seg_name": "Eaux de sources et eaux minérales",
-                            "seg_slug": "eaux-sources-minerales"
+                            "seg_id": 70206,
+                            "seg_name": "Plats cuisinés, box burger, croques",
+                            "seg_slug": "plats-cuisines-box-burger-croques"
                         },
                         {
-                            "seg_id": 110102,
-                            "seg_name": "Eaux gazeuses",
-                            "seg_slug": "eaux-gazeuses"
+                            "seg_id": 70207,
+                            "seg_name": "Cordons bleus, nuggets",
+                            "seg_slug": "cordons-bleus-nuggets"
                         },
                         {
-                            "seg_id": 110103,
-                            "seg_name": "Eaux aromatisées",
-                            "seg_slug": "eaux-aromatisees"
-                        },
-                        {
-                            "seg_id": 110104,
-                            "seg_name": "Goûters et nomades",
-                            "seg_slug": "gouters-nomades"
-                        },
-                        {
-                            "seg_id": 110105,
-                            "seg_name": "Laits et boissons lactées",
-                            "seg_slug": "boissons-lactees"
-                        },
-                        {
-                            "seg_id": 110106,
-                            "seg_name": "boissons végétales",
-                            "seg_slug": "boissons-vegetales"
+                            "seg_id": 70208,
+                            "seg_name": "Traîteur végan",
+                            "seg_slug": "traiteur-vegan"
                         }
                     ]
                 },
                 {
                     "subcatid": 703,
-                    "subcat_name": "Traiteur",
+                    "subcat_name": "Apéritif",
                     "img": "/categories/niveau3/niv3-bieres-cidres.jpg",
                     "segmentations": [
                         {
-                            "seg_id": 110101,
-                            "seg_name": "Eaux de sources et eaux minérales",
-                            "seg_slug": "eaux-sources-minerales"
+                            "seg_id": 70301,
+                            "seg_name": "Traîteur de la mer",
+                            "seg_slug": "traiteur-de-la-mer"
                         },
                         {
-                            "seg_id": 110102,
-                            "seg_name": "Eaux gazeuses",
-                            "seg_slug": "eaux-gazeuses"
+                            "seg_id": 70302,
+                            "seg_name": "Légumes apéritifs",
+                            "seg_slug": "legumes-aperitifs"
                         },
                         {
-                            "seg_id": 110103,
-                            "seg_name": "Eaux aromatisées",
-                            "seg_slug": "eaux-aromatisees"
+                            "seg_id": 70303,
+                            "seg_name": "Bouchées chaudes",
+                            "seg_slug": "bouchees-chaudes"
                         },
                         {
-                            "seg_id": 110104,
-                            "seg_name": "Goûters et nomades",
-                            "seg_slug": "gouters-nomades"
-                        },
-                        {
-                            "seg_id": 110105,
-                            "seg_name": "Laits et boissons lactées",
-                            "seg_slug": "boissons-lactees"
-                        },
-                        {
-                            "seg_id": 110106,
-                            "seg_name": "boissons végétales",
-                            "seg_slug": "boissons-vegetales"
+                            "seg_id": 70304,
+                            "seg_name": "Charcuteries apéritives",
+                            "seg_slug": "charcuteries-aperitives"
                         }
                     ]
                 }
@@ -685,75 +574,65 @@
             "subcategories": [
                 {
                     "subcatid": 801,
-                    "subcat_name": "Glaces et crèmes glacées",
+                    "subcat_name": "Glaces, patisseries et viennoiseries",
                     "img": "/categories/niveau3/niv3-bieres-cidres.jpg",
                     "segmentations": [
                         {
-                            "seg_id": 110101,
-                            "seg_name": "Eaux de sources et eaux minérales",
-                            "seg_slug": "eaux-sources-minerales"
+                            "seg_id": 80101,
+                            "seg_name": "Cônes, barres et bâtonnets",
+                            "seg_slug": "cones-barres-et-batonnets"
                         },
                         {
-                            "seg_id": 110102,
-                            "seg_name": "Eaux gazeuses",
-                            "seg_slug": "eaux-gazeuses"
+                            "seg_id": 80102,
+                            "seg_name": "Bacs, sorbets, crèmes glacées",
+                            "seg_slug": "bacs-sorbets-cremes-glacees"
                         },
                         {
-                            "seg_id": 110103,
-                            "seg_name": "Eaux aromatisées",
-                            "seg_slug": "eaux-aromatisees"
+                            "seg_id": 80103,
+                            "seg_name": "Glaces en pots et mini pots",
+                            "seg_slug": "glaces-en-pots-et-mini-pots"
                         },
                         {
-                            "seg_id": 110104,
-                            "seg_name": "Goûters et nomades",
-                            "seg_slug": "gouters-nomades"
+                            "seg_id": 80104,
+                            "seg_name": "Pâtisseries, viennoiseries et spécialités",
+                            "seg_slug": "patisseries-viennoiseries-et-specialites"
                         },
                         {
-                            "seg_id": 110105,
-                            "seg_name": "Laits et boissons lactées",
-                            "seg_slug": "boissons-lactees"
-                        },
-                        {
-                            "seg_id": 110106,
-                            "seg_name": "boissons végétales",
-                            "seg_slug": "boissons-vegetales"
+                            "seg_id": 80105,
+                            "seg_name": "Glaces pour enfants",
+                            "seg_slug": "glaces-pour-enfants"
                         }
                     ]
                 },
                 {
                     "subcatid": 802,
-                    "subcat_name": "Viennoiseries",
+                    "subcat_name": "Légumes",
                     "img": "/categories/niveau3/niv3-bieres-cidres.jpg",
                     "segmentations": [
                         {
-                            "seg_id": 110101,
-                            "seg_name": "Eaux de sources et eaux minérales",
-                            "seg_slug": "eaux-sources-minerales"
+                            "seg_id": 80201,
+                            "seg_name": "Légumes nature",
+                            "seg_slug": "legumes-nature"
                         },
                         {
-                            "seg_id": 110102,
-                            "seg_name": "Eaux gazeuses",
-                            "seg_slug": "eaux-gazeuses"
+                            "seg_id": 80202,
+                            "seg_name": "Cuisinés à poeler",
+                            "seg_slug": "cuisines-a-poeler"
                         },
                         {
-                            "seg_id": 110103,
-                            "seg_name": "Eaux aromatisées",
-                            "seg_slug": "eaux-aromatisees"
+                            "seg_id": 80203,
+                            "seg_name": "Purées, gratins de légumes, galettes",
+                            "seg_slug": "purees-gratins-de-legumes-galettes"
                         },
                         {
-                            "seg_id": 110104,
-                            "seg_name": "Goûters et nomades",
-                            "seg_slug": "gouters-nomades"
+                            "seg_id": 80204,
+                            "seg_name": "Herbes aromatiques",
+                            "seg_slug": "herbes-aromatiques"
                         },
                         {
-                            "seg_id": 110105,
-                            "seg_name": "Laits et boissons lactées",
-                            "seg_slug": "boissons-lactees"
-                        },
-                        {
-                            "seg_id": 110106,
-                            "seg_name": "boissons végétales",
-                            "seg_slug": "boissons-vegetales"
+                            "seg_id": 80205,
+                            "seg_name": "Repas bébés",
+                            "seg_slug": "repas-bebes"
                         }
                     ]
                 },
@@ -763,108 +642,108 @@
                     "img": "/categories/niveau3/niv3-bieres-cidres.jpg",
                     "segmentations": [
                         {
-                            "seg_id": 110101,
-                            "seg_name": "Eaux de sources et eaux minérales",
-                            "seg_slug": "eaux-sources-minerales"
+                            "seg_id": 80301,
+                            "seg_name": "Frites pour friture",
+                            "seg_slug": "frites-pour-friture"
                         },
                         {
-                            "seg_id": 110102,
-                            "seg_name": "Eaux gazeuses",
-                            "seg_slug": "eaux-gazeuses"
+                            "seg_id": 80302,
+                            "seg_name": "Frites au four",
+                            "seg_slug": "frites-au-four"
                         },
                         {
-                            "seg_id": 110103,
-                            "seg_name": "Eaux aromatisées",
-                            "seg_slug": "eaux-aromatisees"
+                            "seg_id": 80303,
+                            "seg_name": "Frites micro-ondables",
+                            "seg_slug": "frites-micro-ondables"
                         },
                         {
-                            "seg_id": 110104,
-                            "seg_name": "Goûters et nomades",
-                            "seg_slug": "gouters-nomades"
-                        },
-                        {
-                            "seg_id": 110105,
-                            "seg_name": "Laits et boissons lactées",
-                            "seg_slug": "boissons-lactees"
-                        },
-                        {
-                            "seg_id": 110106,
-                            "seg_name": "boissons végétales",
-                            "seg_slug": "boissons-vegetales"
+                            "seg_id": 80304,
+                            "seg_name": "Pommes de terre",
+                            "seg_slug": "pommes-de-terre"
                         }
                     ]
                 },
                 {
                     "subcatid": 804,
-                    "subcat_name": "Traiteur surgelé",
+                    "subcat_name": "Viandes, poissons, végétarien",
                     "img": "/categories/niveau3/niv3-bieres-cidres.jpg",
                     "segmentations": [
                         {
-                            "seg_id": 110101,
-                            "seg_name": "Eaux de sources et eaux minérales",
-                            "seg_slug": "eaux-sources-minerales"
+                            "seg_id": 80401,
+                            "seg_name": "Volailles, panés de volaille, porc",
+                            "seg_slug": "volailles-panes-de-volaille-porc"
                         },
                         {
-                            "seg_id": 110102,
-                            "seg_name": "Eaux gazeuses",
-                            "seg_slug": "eaux-gazeuses"
+                            "seg_id": 80402,
+                            "seg_name": "Steaks hachés, boulettes",
+                            "seg_slug": "steaks-haches-boulettes"
                         },
                         {
-                            "seg_id": 110103,
-                            "seg_name": "Eaux aromatisées",
-                            "seg_slug": "eaux-aromatisees"
+                            "seg_id": 80403,
+                            "seg_name": "Poissons natures",
+                            "seg_slug": "poissons-natures"
                         },
                         {
-                            "seg_id": 110104,
-                            "seg_name": "Goûters et nomades",
-                            "seg_slug": "gouters-nomades"
+                            "seg_id": 80404,
+                            "seg_name": "Poissons panés",
+                            "seg_slug": "poissons-panes"
                         },
                         {
-                            "seg_id": 110105,
-                            "seg_name": "Laits et boissons lactées",
-                            "seg_slug": "boissons-lactees"
+                            "seg_id": 80405,
+                            "seg_name": "Poissons cuisinés",
+                            "seg_slug": "poissons-cuisines"
                         },
                         {
-                            "seg_id": 110106,
-                            "seg_name": "boissons végétales",
-                            "seg_slug": "boissons-vegetales"
+                            "seg_id": 80406,
+                            "seg_name": "Fruits de mer et crustacés",
+                            "seg_slug": "fruits-de-mer-et-crustaces"
                         }
                     ]
                 },
                 {
                     "subcatid": 805,
-                    "subcat_name": "légumes",
+                    "subcat_name": "Appéritifs, pizzas et plats cuisinés",
                     "img": "/categories/niveau3/niv3-bieres-cidres.jpg",
                     "segmentations": [
                         {
-                            "seg_id": 110101,
-                            "seg_name": "Eaux de sources et eaux minérales",
-                            "seg_slug": "eaux-sources-minerales"
+                            "seg_id": 80501,
+                            "seg_name": "Apéritifs et petits-fours",
+                            "seg_slug": "aperitifs-et-petits-fours"
                         },
                         {
-                            "seg_id": 110102,
-                            "seg_name": "Eaux gazeuses",
-                            "seg_slug": "eaux-gazeuses"
+                            "seg_id": 80502,
+                            "seg_name": "Burgers, feuilletés, crêpes",
+                            "seg_slug": "burgers-feuilletes-crepes"
                         },
                         {
-                            "seg_id": 110103,
-                            "seg_name": "Eaux aromatisées",
-                            "seg_slug": "eaux-aromatisees"
+                            "seg_id": 80503,
+                            "seg_name": "Pizzas",
+                            "seg_slug": "pizzas-surgelees"
                         },
                         {
-                            "seg_id": 110104,
-                            "seg_name": "Goûters et nomades",
-                            "seg_slug": "gouters-nomades"
+                            "seg_id": 80504,
+                            "seg_name": "Tartes et quiches",
+                            "seg_slug": "tartes-et-quiches"
                         },
                         {
-                            "seg_id": 110105,
-                            "seg_name": "Laits et boissons lactées",
-                            "seg_slug": "boissons-lactees"
+                            "seg_id": 80505,
+                            "seg_name": "Plats cuisinés à partager",
+                            "seg_slug": "plats-cuisines-a-partager"
                         },
                         {
-                            "seg_id": 110106,
-                            "seg_name": "boissons végétales",
-                            "seg_slug": "boissons-vegetales"
+                            "seg_id": 80506,
+                            "seg_name": "Plats cuisinés individuels",
+                            "seg_slug": "plats-cuisines-individuels"
+                        },
+                        {
+                            "seg_id": 80507,
+                            "seg_name": "Cuisine du monde",
+                            "seg_slug": "cuisine-du-monde"
+                        },
+                        {
+                            "seg_id": 80508,
+                            "seg_name": "Coquilles Saint-Jacques",
+                            "seg_slug": "coquilles-saint-jacques"
                         }
                     ]
                 }
@@ -878,112 +757,102 @@
             "subcategories": [
                 {
                     "subcatid": 901,
-                    "subcat_name": "Apéritifs",
+                    "subcat_name": "Produits salés et apéritifs",
                     "img": "/categories/niveau3/niv3-bieres-cidres.jpg",
                     "segmentations": [
                         {
-                            "seg_id": 110101,
-                            "seg_name": "Eaux de sources et eaux minérales",
-                            "seg_slug": "eaux-sources-minerales"
+                            "seg_id": 90101,
+                            "seg_name": "Gateaux apéritifs",
+                            "seg_slug": "gateaux-aperitifs"
                         },
                         {
-                            "seg_id": 110102,
-                            "seg_name": "Eaux gazeuses",
-                            "seg_slug": "eaux-gazeuses"
+                            "seg_id": 90102,
+                            "seg_name": "Chips",
+                            "seg_slug": "chips"
                         },
                         {
-                            "seg_id": 110103,
-                            "seg_name": "Eaux aromatisées",
-                            "seg_slug": "eaux-aromatisees"
+                            "seg_id": 90103,
+                            "seg_name": "Cacahuètes",
+                            "seg_slug": "cacahuetes"
                         },
                         {
-                            "seg_id": 110104,
-                            "seg_name": "Goûters et nomades",
-                            "seg_slug": "gouters-nomades"
-                        },
-                        {
-                            "seg_id": 110105,
-                            "seg_name": "Laits et boissons lactées",
-                            "seg_slug": "boissons-lactees"
-                        },
-                        {
-                            "seg_id": 110106,
-                            "seg_name": "boissons végétales",
-                            "seg_slug": "boissons-vegetales"
+                            "seg_id": 90104,
+                            "seg_name": "Pour tartiner les toasts",
+                            "seg_slug": "pour-tartiner-les-toasts"
                         }
                     ]
                 },
                 {
                     "subcatid": 902,
-                    "subcat_name": "Condiments, sauces, bouillons",
+                    "subcat_name": "Potages, sauces et croutons",
                     "img": "/categories/niveau3/niv3-bieres-cidres.jpg",
                     "segmentations": [
                         {
-                            "seg_id": 110101,
-                            "seg_name": "Eaux de sources et eaux minérales",
-                            "seg_slug": "eaux-sources-minerales"
+                            "seg_id": 90201,
+                            "seg_name": "Croûtons et accompagnements",
+                            "seg_slug": "croutons-et-accompagnements"
                         },
                         {
-                            "seg_id": 110102,
-                            "seg_name": "Eaux gazeuses",
-                            "seg_slug": "eaux-gazeuses"
+                            "seg_id": 90202,
+                            "seg_name": "Soupes liquides en brique",
+                            "seg_slug": "soupes-liquides-en-brique"
                         },
                         {
-                            "seg_id": 110103,
-                            "seg_name": "Eaux aromatisées",
-                            "seg_slug": "eaux-aromatisees"
+                            "seg_id": 90203,
+                            "seg_name": "Soupes individuelles instantanées",
+                            "seg_slug": "soupes-individuelles-instantanees"
                         },
                         {
-                            "seg_id": 110104,
-                            "seg_name": "Goûters et nomades",
-                            "seg_slug": "gouters-nomades"
+                            "seg_id": 90204,
+                            "seg_name": "Soupes à chauffer familiales",
+                            "seg_slug": "soupes-a-chauffer-familiales"
                         },
                         {
-                            "seg_id": 110105,
-                            "seg_name": "Laits et boissons lactées",
-                            "seg_slug": "boissons-lactees"
-                        },
-                        {
-                            "seg_id": 110106,
-                            "seg_name": "boissons végétales",
-                            "seg_slug": "boissons-vegetales"
+                            "seg_id": 90205,
+                            "seg_name": "Soupes du monde",
+                            "seg_slug": "soupes-du-monde"
                         }
                     ]
                 },
                 {
                     "subcatid": 903,
-                    "subcat_name": "Pâtes, riz, semoules",
+                    "subcat_name": "Pâtes, riz, semoules, farines...",
                     "img": "/categories/niveau3/niv3-bieres-cidres.jpg",
                     "segmentations": [
                         {
-                            "seg_id": 110101,
-                            "seg_name": "Eaux de sources et eaux minérales",
-                            "seg_slug": "eaux-sources-minerales"
+                            "seg_id": 90301,
+                            "seg_name": "Pâtes",
+                            "seg_slug": "pates"
                         },
                         {
-                            "seg_id": 110102,
-                            "seg_name": "Eaux gazeuses",
-                            "seg_slug": "eaux-gazeuses"
+                            "seg_id": 90302,
+                            "seg_name": "Riz",
+                            "seg_slug": "riz"
                         },
                         {
-                            "seg_id": 110103,
-                            "seg_name": "Eaux aromatisées",
-                            "seg_slug": "eaux-aromatisees"
+                            "seg_id": 903103,
+                            "seg_name": "Blés, semoules, céréales",
+                            "seg_slug": "bles-semoules-cereales"
                         },
                         {
-                            "seg_id": 110104,
-                            "seg_name": "Goûters et nomades",
-                            "seg_slug": "gouters-nomades"
+                            "seg_id": 90304,
+                            "seg_name": "Farines",
+                            "seg_slug": "farines"
                         },
                         {
-                            "seg_id": 110105,
-                            "seg_name": "Laits et boissons lactées",
-                            "seg_slug": "boissons-lactees"
+                            "seg_id": 90305,
+                            "seg_name": "Purées",
+                            "seg_slug": "purees"
                         },
                         {
-                            "seg_id": 110106,
-                            "seg_name": "boissons végétales",
-                            "seg_slug": "boissons-vegetales"
+                            "seg_id": 90306,
+                            "seg_name": "Légumes secs",
+                            "seg_slug": "legumes-secs"
+                        },
+                        {
+                            "seg_id": 90307,
+                            "seg_name": "Pâtes et riz express",
+                            "seg_slug": "pates-et-riz-express"
                         }
                     ]
                 },
@@ -993,34 +862,86 @@
                     "img": "/categories/niveau3/niv3-bieres-cidres.jpg",
                     "segmentations": [
                         {
-                            "seg_id": 110101,
-                            "seg_name": "Eaux de sources et eaux minérales",
-                            "seg_slug": "eaux-sources-minerales"
+                            "seg_id": 90401,
+                            "seg_name": "Conserves de légumes",
+                            "seg_slug": "conserves-de-legumes"
                         },
                         {
-                            "seg_id": 110102,
-                            "seg_name": "Eaux gazeuses",
-                            "seg_slug": "eaux-gazeuses"
+                            "seg_id": 90402,
+                            "seg_name": "Conserves de poissons",
+                            "seg_slug": "conserves-de-poissons"
                         },
                         {
-                            "seg_id": 110103,
-                            "seg_name": "Eaux aromatisées",
-                            "seg_slug": "eaux-aromatisees"
+                            "seg_id": 90403,
+                            "seg_name": "Plats cuisinés",
+                            "seg_slug": "plats-cuisines"
                         },
                         {
-                            "seg_id": 110104,
-                            "seg_name": "Goûters et nomades",
-                            "seg_slug": "gouters-nomades"
+                            "seg_id": 90404,
+                            "seg_name": "Plats individuels",
+                            "seg_slug": "plats-individuels"
                         },
                         {
-                            "seg_id": 110105,
-                            "seg_name": "Laits et boissons lactées",
-                            "seg_slug": "boissons-lactees"
+                            "seg_id": 90405,
+                            "seg_name": "Pâtés et terrines",
+                            "seg_slug": "pates-et-terrines"
                         },
                         {
-                            "seg_id": 110106,
-                            "seg_name": "boissons végétales",
-                            "seg_slug": "boissons-vegetales"
+                            "seg_id": 90406,
+                            "seg_name": "Cuisine du monde",
+                            "seg_slug": "cuisine-du-monde"
+                        },
+                        {
+                            "seg_id": 90407,
+                            "seg_name": "Foie gras",
+                            "seg_slug": "foie-gras"
+                        }
+                    ]
+                },
+                {
+                    "subcatid": 905,
+                    "subcat_name": "Condiments, sauces et bouillons",
+                    "img": "/categories/niveau3/niv3-bieres-cidres.jpg",
+                    "segmentations": [
+                        {
+                            "seg_id": 90501,
+                            "seg_name": "Mayonnaise, moutarde, ketchup, Soja...",
+                            "seg_slug": "mayonnaise-moutarde-ketchup-soja"
+                        },
+                        {
+                            "seg_id": 90502,
+                            "seg_name": "Sauces chaudes",
+                            "seg_slug": "sauces-chaudes"
+                        },
+                        {
+                            "seg_id": 90503,
+                            "seg_name": "Huiles",
+                            "seg_slug": "huiles"
+                        },
+                        {
+                            "seg_id": 905404,
+                            "seg_name": "Vinaigres et vinaigrettes",
+                            "seg_slug": "vinaigres-et-vinaigrettes"
+                        },
+                        {
+                            "seg_id": 90405,
+                            "seg_name": "Cornichons, olives",
+                            "seg_slug": "cornichons-olives"
+                        },
+                        {
+                            "seg_id": 90506,
+                            "seg_name": "Herbes et épices",
+                            "seg_slug": "herbes-et-epices"
+                        },
+                        {
+                            "seg_id": 90507,
+                            "seg_name": "Sels et poivres",
+                            "seg_slug": "sels-et-poivres"
+                        },
+                        {
+                            "seg_id": 90508,
+                            "seg_name": "Bouillons et aides à la cuisine",
+                            "seg_slug": "bouillons-et-aides-a-la-cuisine"
                         }
                     ]
                 }
@@ -1033,12 +954,266 @@
             "route": "epicerie-sucree",
             "subcategories": [
                 {
-                    "subcatid": 401,
-                    "subcat_name": "Fruits"
+                    "subcatid": 1001,
+                    "subcat_name": "Cafés, thés, boissons chocolatées",
+                    "img": "/categories/niveau3/niv3-bieres-cidres.jpg",
+                    "segmentations": [
+                        {
+                            "seg_id": 100101,
+                            "seg_name": "Cafés moulus et en grains",
+                            "seg_slug": "cafes-moulus-et-en-grains"
+                        },
+                        {
+                            "seg_id": 100102,
+                            "seg_name": "Compatibles Nespresso",
+                            "seg_slug": "compatibles-nespresso"
+                        },
+                        {
+                            "seg_id": 100103,
+                            "seg_name": "Compatibles Dolce Gusto",
+                            "seg_slug": "compatibles-dolce-gusto"
+                        },
+                        {
+                            "seg_id": 100104,
+                            "seg_name": "Compatibles Tassimo",
+                            "seg_slug": "compatibles-tassimo"
+                        },
+                        {
+                            "seg_id": 100105,
+                            "seg_name": "Compatibles Senseo",
+                            "seg_slug": "compatibles-senseo"
+                        },
+                        {
+                            "seg_id": 100106,
+                            "seg_name": "Cafés solubles et chicorées",
+                            "seg_slug": "cafes-solubles-et-chicorees"
+                        },
+                        {
+                            "seg_id": 100107,
+                            "seg_name": "Thés et infusions",
+                            "seg_slug": "thes-et-infusions"
+                        },
+                        {
+                            "seg_id": 100108,
+                            "seg_name": "Boissons chocolatées",
+                            "seg_slug": "boissons-chocolatees"
+                        }
+                    ]
                 },
                 {
-                    "subcatid": 402,
-                    "subcat_name": "Légumes"
+                    "subcatid": 1002,
+                    "subcat_name": "Petit déjeuner",
+                    "img": "/categories/niveau3/niv3-bieres-cidres.jpg",
+                    "segmentations": [
+                        {
+                            "seg_id": 100201,
+                            "seg_name": "Diététique et bio",
+                            "seg_slug": "dietetique-et-bio"
+                        },
+                        {
+                            "seg_id": 100202,
+                            "seg_name": "Confitures, miels et tartinables",
+                            "seg_slug": "confitures-miels-et-tartinables"
+                        },
+                        {
+                            "seg_id": 100203,
+                            "seg_name": "Cookies et brownies",
+                            "seg_slug": "cookies-et-brownies"
+                        },
+                        {
+                            "seg_id": 100204,
+                            "seg_name": "Biscuits au chocolat et vanille",
+                            "seg_slug": "biscuits-au-chocolat-et-vanille"
+                        },
+                        {
+                            "seg_id": 100205,
+                            "seg_name": "Biscuits aux fruits",
+                            "seg_slug": "biscuits-aux-fruits"
+                        },
+                        {
+                            "seg_id": 100206,
+                            "seg_name": "Biscuits secs et sablés",
+                            "seg_slug": "biscuits-secs-et-sables"
+                        },
+                        {
+                            "seg_id": 100207,
+                            "seg_name": "Cakes, 4 quarts et marbrés",
+                            "seg_slug": "cakes-4-quarts-et-marbres"
+                        },
+                        {
+                            "seg_id": 100208,
+                            "seg_name": "Madeleines, financiers et muffins",
+                            "seg_slug": "madeleines-financiers-et-muffins"
+                        }
+                    ]
+                },
+                {
+                    "subcatid": 1002,
+                    "subcat_name": "Petit déjeuner",
+                    "img": "/categories/niveau3/niv3-bieres-cidres.jpg",
+                    "segmentations": [
+                        {
+                            "seg_id": 100201,
+                            "seg_name": "Diététique et bio",
+                            "seg_slug": "dietetique-et-bio"
+                        },
+                        {
+                            "seg_id": 100202,
+                            "seg_name": "Confitures, miels et tartinables",
+                            "seg_slug": "confitures-miels-et-tartinables"
+                        },
+                        {
+                            "seg_id": 100203,
+                            "seg_name": "Céréales et mueslis",
+                            "seg_slug": "cereales-et-mueslis"
+                        },
+                        {
+                            "seg_id": 100204,
+                            "seg_name": "Biscuits petit déj'",
+                            "seg_slug": "biscuits-petit-dejeuner"
+                        },
+                        {
+                            "seg_id": 100205,
+                            "seg_name": "Viennoiseries, brioches et pains au lait",
+                            "seg_slug": "viennoiseries-brioches-et-pains-au-lait"
+                        },
+                        {
+                            "seg_id": 100206,
+                            "seg_name": "Biscottes et pains grillés",
+                            "seg_slug": "biscottes-et-pains-grilles"
+                        },
+                        {
+                            "seg_id": 100207,
+                            "seg_name": "Pains de mie et précuits",
+                            "seg_slug": "pains-de-mie-et-precuits"
+                        },
+                        {
+                            "seg_id": 100208,
+                            "seg_name": "Compotes et gourdes de fruits",
+                            "seg_slug": "compotes-et-gourdes-de-fruits"
+                        }
+                    ]
+                },
+                {
+                    "subcatid": 1003,
+                    "subcat_name": "Biscuits et gateaux",
+                    "img": "/categories/niveau3/niv3-bieres-cidres.jpg",
+                    "segmentations": [
+                        {
+                            "seg_id": 100301,
+                            "seg_name": "Diététique et bio",
+                            "seg_slug": "dietetique-et-bio"
+                        },
+                        {
+                            "seg_id": 100302,
+                            "seg_name": "Goûters pockets et barres de céréales",
+                            "seg_slug": "Goûters pockets et barres de céréales"
+                        },
+                        {
+                            "seg_id": 100303,
+                            "seg_name": "Cookies et brownies",
+                            "seg_slug": "cookies-et-brownies"
+                        },
+                        {
+                            "seg_id": 100304,
+                            "seg_name": "Biscuits au chocolat et vanille",
+                            "seg_slug": "biscuits-au-chocolat-et-vanille"
+                        },
+                        {
+                            "seg_id": 100305,
+                            "seg_name": "Biscuits aux fruits",
+                            "seg_slug": "biscuits-aux-fruits"
+                        },
+                        {
+                            "seg_id": 100306,
+                            "seg_name": "Biscuits secs et sablés",
+                            "seg_slug": "biscuits-secs-et-sables"
+                        },
+                        {
+                            "seg_id": 100307,
+                            "seg_name": "Cakes, 4 quarts et marbrés",
+                            "seg_slug": "cakes-4-quarts-et-marbres"
+                        },
+                        {
+                            "seg_id": 100308,
+                            "seg_name": "Madeleines, financiers et muffins",
+                            "seg_slug": "madeleines-financiers-et-muffins"
+                        }
+                    ]
+                },
+                {
+                    "subcatid": 1004,
+                    "subcat_name": "Desserts, sucres",
+                    "img": "/categories/niveau3/niv3-bieres-cidres.jpg",
+                    "segmentations": [
+                        {
+                            "seg_id": 100401,
+                            "seg_name": "Compotes et gourdes de fruits",
+                            "seg_slug": "compotes-et-gourdes-de-fruits"
+                        },
+                        {
+                            "seg_id": 100402,
+                            "seg_name": "Fruits au sirop",
+                            "seg_slug": "fruits-au-sirop"
+                        },
+                        {
+                            "seg_id": 100403,
+                            "seg_name": "Crèmes dessert",
+                            "seg_slug": "cremes-dessert"
+                        },
+                        {
+                            "seg_id": 100404,
+                            "seg_name": "Sucres et édulcorants",
+                            "seg_slug": "sucres-et-edulcorants"
+                        },
+                        {
+                            "seg_id": 100405,
+                            "seg_name": "Aides à la pâtisserie",
+                            "seg_slug": "aides-a-la-patisserie"
+                        },
+                        {
+                            "seg_id": 100406,
+                            "seg_name": "Préparations pour desserts",
+                            "seg_slug": "preparations-pour-desserts"
+                        }
+                    ]
+                },
+                {
+                    "subcatid": 1005,
+                    "subcat_name": "Chocolats et confiseries",
+                    "img": "/categories/niveau3/niv3-bieres-cidres.jpg",
+                    "segmentations": [
+                        {
+                            "seg_id": 100501,
+                            "seg_name": "Tablettes de chocolat",
+                            "seg_slug": "tablettes-de-chocolat"
+                        },
+                        {
+                            "seg_id": 100502,
+                            "seg_name": "Barres et confiseries au chocolat",
+                            "seg_slug": "barres-et-confiseries-au-chocolat"
+                        },
+                        {
+                            "seg_id": 100503,
+                            "seg_name": "Bonbons",
+                            "seg_slug": "bonbons"
+                        },
+                        {
+                            "seg_id": 100504,
+                            "seg_name": "Chewing-gums",
+                            "seg_slug": "chewing-gums"
+                        },
+                        {
+                            "seg_id": 100505,
+                            "seg_name": "Confiseries de poche",
+                            "seg_slug": "confiseries-de-poche"
+                        },
+                        {
+                            "seg_id": 100506,
+                            "seg_name": "Pop-corns et autres confiseries",
+                            "seg_slug": "pop-corns-et-autres-confiseries"
+                        }
+                    ]
                 }
             ]
         },
@@ -1093,72 +1268,82 @@
                     "img": "/categories/niveau3/niv3-jus-softs.jpg",
                     "segmentations": [
                         {
-                            "seg_id": 110101,
-                            "seg_name": "Eaux de sources et eaux minérales",
-                            "seg_slug": "eaux-sources-minerales"
+                            "seg_id": 110201,
+                            "seg_name": "Thés glacés et infusions",
+                            "seg_slug": "thes-glaces-et-infusions"
                         },
                         {
-                            "seg_id": 110102,
-                            "seg_name": "Eaux gazeuses",
-                            "seg_slug": "eaux-gazeuses"
+                            "seg_id": 110202,
+                            "seg_name": "Jus de fruits et jus de légumes",
+                            "seg_slug": "jus-de-fruits-et-jus-de-legumes"
                         },
                         {
-                            "seg_id": 110103,
-                            "seg_name": "Eaux aromatisées",
-                            "seg_slug": "eaux-aromatisees"
+                            "seg_id": 110203,
+                            "seg_name": "Jus de fruits fraisBoissons plates à base de fruits",
+                            "seg_slug": "jus-de-fruits-frais-boissons-plates-a-base-de-fruits"
                         },
                         {
-                            "seg_id": 110104,
-                            "seg_name": "Goûters et nomades",
-                            "seg_slug": "gouters-nomades"
+                            "seg_id": 110204,
+                            "seg_name": "Boissons plates à base de fruits",
+                            "seg_slug": "boissons-plates-a-base-de-fruits"
                         },
                         {
-                            "seg_id": 110105,
-                            "seg_name": "Laits et boissons lactées",
-                            "seg_slug": "boissons-lactees"
+                            "seg_id": 110205,
+                            "seg_name": "Boissons gazeuses, sodas et limonades",
+                            "seg_slug": "boissons-gazeuses-sodas-et-limonades"
                         },
                         {
-                            "seg_id": 110106,
-                            "seg_name": "boissons végétales",
-                            "seg_slug": "boissons-vegetales"
+                            "seg_id": 110206,
+                            "seg_name": "Sirops et concentrés",
+                            "seg_slug": "sirops-et-concentres"
+                        },
+                        {
+                            "seg_id": 110207,
+                            "seg_name": "Boissons énergisantes",
+                            "seg_slug": "boissons-energisantes"
                         }
                     ]
                 },
                 {
-                    "subcatid": 1104,
+                    "subcatid": 1103,
                     "subcat_name": "Bières et cidres",
                     "slug": "boissons-bieres-1004",
                     "img": "/categories/niveau3/niv3-bieres-cidres.jpg",
                     "segmentations": [
                         {
-                            "seg_id": 110101,
-                            "seg_name": "Eaux de sources et eaux minérales",
-                            "seg_slug": "eaux-sources-minerales"
+                            "seg_id": 110301,
+                            "seg_name": "Cave à bieres",
+                            "seg_slug": "cave-a-bieres"
                         },
                         {
-                            "seg_id": 110102,
-                            "seg_name": "Eaux gazeuses",
-                            "seg_slug": "eaux-gazeuses"
+                            "seg_id": 110302,
+                            "seg_name": "Bières aromatisées, blanches, bières fruitées",
+                            "seg_slug": "bieres-aromatisees-blanches-bieres-fruitees"
                         },
                         {
-                            "seg_id": 110103,
-                            "seg_name": "Eaux aromatisées",
-                            "seg_slug": "eaux-aromatisees"
+                            "seg_id": 110303,
+                            "seg_name": "Bières blondes légères",
+                            "seg_slug": "bieres-blondes-legeres"
                         },
                         {
-                            "seg_id": 110104,
-                            "seg_name": "Goûters et nomades",
-                            "seg_slug": "gouters-nomades"
+                            "seg_id": 110304,
+                            "seg_name": "Bièees de dégustation brunes et ambrées",
+                            "seg_slug": "bieres-de-degustation-brunes-et-ambrees"
                         },
                         {
-                            "seg_id": 110105,
-                            "seg_name": "Laits et boissons lactées",
-                            "seg_slug": "boissons-lactees"
+                            "seg_id": 110305,
+                            "seg_name": "Bières panachées et sans alcool",
+                            "seg_slug": "Bieres-panachees-et-sans-alcool"
                         },
                         {
-                            "seg_id": 110106,
-                            "seg_name": "boissons végétales",
-                            "seg_slug": "boissons-vegetales"
+                            "seg_id": 110306,
+                            "seg_name": "Bières en fûts",
+                            "seg_slug": "bieres-en-futs"
+                        },
+                        {
+                            "seg_id": 110307,
+                            "seg_name": "Cidres",
+                            "seg_slug": "cidres"
                         }
                     ]
                 },
@@ -1169,34 +1354,49 @@
                     "img": "/categories/niveau3/niv3-vins-champagnes.jpg",
                     "segmentations": [
                         {
-                            "seg_id": 110101,
-                            "seg_name": "Eaux de sources et eaux minérales",
-                            "seg_slug": "eaux-sources-minerales"
+                            "seg_id": 110501,
+                            "seg_name": "Vins bios",
+                            "seg_slug": "vins-bios"
                         },
                         {
-                            "seg_id": 110102,
-                            "seg_name": "Eaux gazeuses",
-                            "seg_slug": "eaux-gazeuses"
+                            "seg_id": 110502,
+                            "seg_name": "Vins rouges",
+                            "seg_slug": "vins-rouges"
                         },
                         {
-                            "seg_id": 110103,
-                            "seg_name": "Eaux aromatisées",
-                            "seg_slug": "eaux-aromatisees"
+                            "seg_id": 110503,
+                            "seg_name": "Vins blancs",
+                            "seg_slug": "vins-blancs"
                         },
                         {
-                            "seg_id": 110104,
-                            "seg_name": "Goûters et nomades",
-                            "seg_slug": "gouters-nomades"
+                            "seg_id": 110504,
+                            "seg_name": "Vins rosés",
+                            "seg_slug": "vins-roses"
                         },
                         {
-                            "seg_id": 110105,
-                            "seg_name": "Laits et boissons lactées",
-                            "seg_slug": "boissons-lactees"
+                            "seg_id": 110505,
+                            "seg_name": "Champagnes",
+                            "seg_slug": "champagnes"
                         },
                         {
-                            "seg_id": 110106,
-                            "seg_name": "boissons végétales",
-                            "seg_slug": "boissons-vegetales"
+                            "seg_id": 110506,
+                            "seg_name": "Vins effervescents",
+                            "seg_slug": "vins-effervescents"
+                        },
+                        {
+                            "seg_id": 110507,
+                            "seg_name": "Vins du monde",
+                            "seg_slug": "vins-du-monde"
+                        },
+                        {
+                            "seg_id": 110507,
+                            "seg_name": "Boissons aromatisées à base de vin",
+                            "seg_slug": "boisson-base-vin"
+                        },
+                        {
+                            "seg_id": 110508,
+                            "seg_name": "Cubis, bag-in-the-box",
+                            "seg_slug": "cubis-bag-in-the-box"
                         }
                     ]
                 },
@@ -1207,34 +1407,34 @@
                     "img": "/categories/niveau3/niv3-alcools-aperitifs.jpg",
                     "segmentations": [
                         {
-                            "seg_id": 110101,
-                            "seg_name": "Eaux de sources et eaux minérales",
-                            "seg_slug": "eaux-sources-minerales"
+                            "seg_id": 110601,
+                            "seg_name": "Apéritifs",
+                            "seg_slug": "aperitifs"
                         },
                         {
-                            "seg_id": 110102,
-                            "seg_name": "Eaux gazeuses",
-                            "seg_slug": "eaux-gazeuses"
+                            "seg_id": 110602,
+                            "seg_name": "Whisky et Bourbons",
+                            "seg_slug": "whisky-et-bourbons"
                         },
                         {
-                            "seg_id": 110103,
-                            "seg_name": "Eaux aromatisées",
-                            "seg_slug": "eaux-aromatisees"
+                            "seg_id": 110603,
+                            "seg_name": "Alcools blancs et cocktails",
+                            "seg_slug": "Alcools blancs et cocktails"
                         },
                         {
-                            "seg_id": 110104,
-                            "seg_name": "Goûters et nomades",
-                            "seg_slug": "gouters-nomades"
+                            "seg_id": 110604,
+                            "seg_name": "Liqueurs et crèmes",
+                            "seg_slug": "liqueurs-et-cremes"
                         },
                         {
                             "seg_id": 110105,
-                            "seg_name": "Laits et boissons lactées",
-                            "seg_slug": "boissons-lactees"
+                            "seg_name": "Digestifs",
+                            "seg_slug": "digestifs"
                         },
                         {
-                            "seg_id": 110106,
-                            "seg_name": "boissons végétales",
-                            "seg_slug": "boissons-vegetales"
+                            "seg_id": 110606,
+                            "seg_name": "Apéritifs sans alcool",
+                            "seg_slug": "aperitifs-sans-alcool"
                         }
                     ]
                 }
@@ -1247,76 +1447,187 @@
             "route": "bebe",
             "subcategories": [
                 {
-                    "subcatid": 401,
-                    "subcat_name": "Fruits",
+                    "subcatid": 121,
+                    "subcat_name": "Laits et céréales",
                     "img": "/categories/niveau3/niv3-bieres-cidres.jpg",
                     "segmentations": [
                         {
-                            "seg_id": 110101,
-                            "seg_name": "Eaux de sources et eaux minérales",
-                            "seg_slug": "eaux-sources-minerales"
+                            "seg_id": 12101,
+                            "seg_name": "Laits 1er âge (0-6 mois)",
+                            "seg_slug": "laits-1er-age-0-6-mois"
                         },
                         {
-                            "seg_id": 110102,
-                            "seg_name": "Eaux gazeuses",
-                            "seg_slug": "eaux-gazeuses"
+                            "seg_id": 12102,
+                            "seg_name": "Laits 2ème âge (6 - 12 mois)",
+                            "seg_slug": "laits-2eme-age-6-12-mois"
                         },
                         {
-                            "seg_id": 110103,
-                            "seg_name": "Eaux aromatisées",
-                            "seg_slug": "eaux-aromatisees"
+                            "seg_id": 12103,
+                            "seg_name": "Lait de croissance (dès 10 mois)",
+                            "seg_slug": "lait-de-croissance-des-10-mois"
                         },
                         {
-                            "seg_id": 110104,
-                            "seg_name": "Goûters et nomades",
-                            "seg_slug": "gouters-nomades"
+                            "seg_id": 12104,
+                            "seg_name": "Céréales en poudre",
+                            "seg_slug": "cereales-en-poudre"
                         },
                         {
-                            "seg_id": 110105,
-                            "seg_name": "Laits et boissons lactées",
-                            "seg_slug": "boissons-lactees"
+                            "seg_id": 12105,
+                            "seg_name": "Céréales prêtes à l'emploi",
+                            "seg_slug": "cereales-pretes-a-l-emploi"
                         },
                         {
-                            "seg_id": 110106,
-                            "seg_name": "boissons végétales",
-                            "seg_slug": "boissons-vegetales"
+                            "seg_id": 12106,
+                            "seg_name": "Eaux",
+                            "seg_slug": "eaux"
                         }
                     ]
                 },
                 {
-                    "subcatid": 402,
-                    "subcat_name": "Légumes",
+                    "subcatid": 122,
+                    "subcat_name": "Repas bébé",
                     "img": "/categories/niveau3/niv3-bieres-cidres.jpg",
                     "segmentations": [
                         {
-                            "seg_id": 110101,
-                            "seg_name": "Eaux de sources et eaux minérales",
-                            "seg_slug": "eaux-sources-minerales"
+                            "seg_id": 122101,
+                            "seg_name": "Bio",
+                            "seg_slug": "bio"
                         },
                         {
-                            "seg_id": 110102,
-                            "seg_name": "Eaux gazeuses",
-                            "seg_slug": "eaux-gazeuses"
+                            "seg_id": 122102,
+                            "seg_name": "Légumes et féculents",
+                            "seg_slug": "legumes-et-feculents"
                         },
                         {
-                            "seg_id": 110103,
-                            "seg_name": "Eaux aromatisées",
-                            "seg_slug": "eaux-aromatisees"
+                            "seg_id": 122103,
+                            "seg_name": "Repas du midi",
+                            "seg_slug": "repas-du-midi"
                         },
                         {
-                            "seg_id": 110104,
-                            "seg_name": "Goûters et nomades",
-                            "seg_slug": "gouters-nomades"
+                            "seg_id": 122104,
+                            "seg_name": "Repas du soir",
+                            "seg_slug": "repas-du-soir"
                         },
                         {
-                            "seg_id": 110105,
-                            "seg_name": "Laits et boissons lactées",
-                            "seg_slug": "boissons-lactees"
+                            "seg_id": 122105,
+                            "seg_name": "Repas bébé à cuisiner",
+                            "seg_slug": "repas-bebe-a-cuisiner"
+                        }
+                    ]
+                },
+                {
+                    "subcatid": 123,
+                    "subcat_name": "Desserts et goûters",
+                    "img": "/categories/niveau3/niv3-bieres-cidres.jpg",
+                    "segmentations": [
+                        {
+                            "seg_id": 123101,
+                            "seg_name": "Bio",
+                            "seg_slug": "bebes-bio"
                         },
                         {
-                            "seg_id": 110106,
-                            "seg_name": "boissons végétales",
-                            "seg_slug": "boissons-vegetales"
+                            "seg_id": 123102,
+                            "seg_name": "Desserts lactés",
+                            "seg_slug": "desserts-lactes"
+                        },
+                        {
+                            "seg_id": 123103,
+                            "seg_name": "Desserts aux fruits",
+                            "seg_slug": "desserts-aux-fruits"
+                        },
+                        {
+                            "seg_id": 123104,
+                            "seg_name": "Biscuits",
+                            "seg_slug": "biscuits-bebes"
+                        },
+                        {
+                            "seg_id": 123105,
+                            "seg_name": "Jus de fruits",
+                            "seg_slug": "jus-de-fruits"
+                        }
+                    ]
+                },
+                {
+                    "subcatid": 124,
+                    "subcat_name": "Couches-culottes",
+                    "img": "/categories/niveau3/niv3-bieres-cidres.jpg",
+                    "segmentations": [
+                        {
+                            "seg_id": 124101,
+                            "seg_name": "écologiques",
+                            "seg_slug": "couches-eco"
+                        },
+                        {
+                            "seg_id": 124102,
+                            "seg_name": "Tailles 1 et 2 (2 à 8kg)",
+                            "seg_slug": "tailles-1-et-2-2-a-8kg"
+                        },
+                        {
+                            "seg_id": 124103,
+                            "seg_name": "Tailles 3 (4 à 11 kg)",
+                            "seg_slug": "tailles-3-4-a-11-kg"
+                        },
+                        {
+                            "seg_id": 124104,
+                            "seg_name": "Tailles 4 et 4+ (7 à 20 kg)",
+                            "seg_slug": "tailles-4-et-4-7-a-20-kg"
+                        },
+                        {
+                            "seg_id": 124105,
+                            "seg_name": "Taille 5 ( 11 à 25kg)",
+                            "seg_slug": "taille-5-11-a-25kg"
+                        },
+                        {
+                            "seg_id": 124106,
+                            "seg_name": "Taille 6 et 7 (13kg et +)",
+                            "seg_slug": "taille-6-et-7-13kg-et"
+                        },
+                        {
+                            "seg_id": 124107,
+                            "seg_name": "Baignade",
+                            "seg_slug": "baignade"
+                        },
+                        {
+                            "seg_id": 124108,
+                            "seg_name": "Sous-vêtements de nuit",
+                            "seg_slug": "sous-vetements-de-nuit"
+                        }
+                    ]
+                },
+                {
+                    "subcatid": 126,
+                    "subcat_name": "Toilette et soins bébés",
+                    "img": "/categories/niveau3/niv3-bieres-cidres.jpg",
+                    "segmentations": [
+                        {
+                            "seg_id": 126101,
+                            "seg_name": "Bio et écologiques",
+                            "seg_slug": "toilette-bebe-bio-eco"
+                        },
+                        {
+                            "seg_id": 126102,
+                            "seg_name": "Cotons et lingettes our bébés",
+                            "seg_slug": "cotons-et-lingettes-our-bebes"
+                        },
+                        {
+                            "seg_id": 126103,
+                            "seg_name": "Gels lavants et shampooings",
+                            "seg_slug": "gels-lavants-et-shampooings"
+                        },
+                        {
+                            "seg_id": 126104,
+                            "seg_name": "Laits et eaux nettoyants",
+                            "seg_slug": "laits-et-eaux-nettoyants"
+                        },
+                        {
+                            "seg_id": 126105,
+                            "seg_name": "Crèmes et soins",
+                            "seg_slug": "cremes-et-soins"
+                        },
+                        {
+                            "seg_id": 126105,
+                            "seg_name": "Lessives et adoussicants",
+                            "seg_slug": "lessives-et-adoussicants"
                         }
                     ]
                 }
@@ -1329,76 +1640,197 @@
             "route": "hygiene-beaute",
             "subcategories": [
                 {
-                    "subcatid": 401,
-                    "subcat_name": "Fruits",
+                    "subcatid": 131,
+                    "subcat_name": "Visage",
                     "img": "/categories/niveau3/niv3-bieres-cidres.jpg",
                     "segmentations": [
                         {
-                            "seg_id": 110101,
-                            "seg_name": "Eaux de sources et eaux minérales",
-                            "seg_slug": "eaux-sources-minerales"
+                            "seg_id": 131101,
+                            "seg_name": "Naturels et bios",
+                            "seg_slug": "naturels-et-bios"
                         },
                         {
-                            "seg_id": 110102,
-                            "seg_name": "Eaux gazeuses",
-                            "seg_slug": "eaux-gazeuses"
+                            "seg_id": 131102,
+                            "seg_name": "Maquillage",
+                            "seg_slug": "maquillage"
                         },
                         {
-                            "seg_id": 110103,
-                            "seg_name": "Eaux aromatisées",
-                            "seg_slug": "eaux-aromatisees"
+                            "seg_id": 131103,
+                            "seg_name": "Cotons, cotons-tige et lingettes",
+                            "seg_slug": "cotons-cotons-tige-et-lingettes"
                         },
                         {
-                            "seg_id": 110104,
-                            "seg_name": "Goûters et nomades",
-                            "seg_slug": "gouters-nomades"
+                            "seg_id": 131104,
+                            "seg_name": "Toilette et démaquillants",
+                            "seg_slug": "toilette-et-demaquillants"
                         },
                         {
-                            "seg_id": 110105,
-                            "seg_name": "Laits et boissons lactées",
-                            "seg_slug": "boissons-lactees"
+                            "seg_id": 131105,
+                            "seg_name": "Soins du visage",
+                            "seg_slug": "soins-du-visage"
                         },
                         {
-                            "seg_id": 110106,
-                            "seg_name": "boissons végétales",
-                            "seg_slug": "boissons-vegetales"
+                            "seg_id": 131106,
+                            "seg_name": "Dentifrices, bains de bouche et brosses à dents",
+                            "seg_slug": "dentifrices-bains-de-bouche-et-brosses-a-dents"
                         }
                     ]
                 },
                 {
-                    "subcatid": 402,
-                    "subcat_name": "Légumes",
+                    "subcatid": 132,
+                    "subcat_name": "Cheveux",
                     "img": "/categories/niveau3/niv3-bieres-cidres.jpg",
                     "segmentations": [
                         {
-                            "seg_id": 110101,
-                            "seg_name": "Eaux de sources et eaux minérales",
-                            "seg_slug": "eaux-sources-minerales"
+                            "seg_id": 13201,
+                            "seg_name": "Shampooings",
+                            "seg_slug": "shampooings"
                         },
                         {
-                            "seg_id": 110102,
-                            "seg_name": "Eaux gazeuses",
-                            "seg_slug": "eaux-gazeuses"
+                            "seg_id": 13202,
+                            "seg_name": "Après-shampooings",
+                            "seg_slug": "apres-shampooings"
                         },
                         {
-                            "seg_id": 110103,
-                            "seg_name": "Eaux aromatisées",
-                            "seg_slug": "eaux-aromatisees"
+                            "seg_id": 13203,
+                            "seg_name": "Masques de soins",
+                            "seg_slug": "masques-de-soins"
                         },
                         {
-                            "seg_id": 110104,
-                            "seg_name": "Goûters et nomades",
-                            "seg_slug": "gouters-nomades"
+                            "seg_id": 13204,
+                            "seg_name": "Gels, laques et mousses coiffantes",
+                            "seg_slug": "gels-laques-et-mousses-coiffantes"
                         },
                         {
-                            "seg_id": 110105,
-                            "seg_name": "Laits et boissons lactées",
-                            "seg_slug": "boissons-lactees"
+                            "seg_id": 13205,
+                            "seg_name": "Colorations",
+                            "seg_slug": "colorations"
+                        }
+                    ]
+                },
+                {
+                    "subcatid": 133,
+                    "subcat_name": "Corps",
+                    "img": "/categories/niveau3/niv3-bieres-cidres.jpg",
+                    "segmentations": [
+                        {
+                            "seg_id": 13301,
+                            "seg_name": "Naturels et bio",
+                            "seg_slug": "naturels-et-bio"
                         },
                         {
-                            "seg_id": 110106,
-                            "seg_name": "boissons végétales",
-                            "seg_slug": "boissons-vegetales"
+                            "seg_id": 13302,
+                            "seg_name": "Gels douche et bains",
+                            "seg_slug": "gels-douche-et-bains"
+                        },
+                        {
+                            "seg_id": 13303,
+                            "seg_name": "Savons",
+                            "seg_slug": "savons"
+                        },
+                        {
+                            "seg_id": 13304,
+                            "seg_name": "Déodorants et parfums",
+                            "seg_slug": "deodorants-et-parfums"
+                        },
+                        {
+                            "seg_id": 13305,
+                            "seg_name": "Crèmes et soins",
+                            "seg_slug": "cremes-et-soins"
+                        },
+                        {
+                            "seg_id": 13305,
+                            "seg_name": "Rasage et épilation féminine",
+                            "seg_slug": "rasage-et-epilation-feminine"
+                        },
+                        {
+                            "seg_id": 13306,
+                            "seg_name": "Hygiène féminine",
+                            "seg_slug": "hygiene-feminine"
+                        },
+                        {
+                            "seg_id": 13307,
+                            "seg_name": "Accessoires de beauté",
+                            "seg_slug": "accessoires-de-beaute"
+                        }
+                    ]
+                },
+                {
+                    "subcatid": 134,
+                    "subcat_name": "Hommes",
+                    "img": "/categories/niveau3/niv3-bieres-cidres.jpg",
+                    "segmentations": [
+                        {
+                            "seg_id": 13401,
+                            "seg_name": "Barbe et rasage",
+                            "seg_slug": "barbe-et-rasage"
+                        },
+                        {
+                            "seg_id": 13402,
+                            "seg_name": "Soins du corps et du visage",
+                            "seg_slug": "soins-du-corps-et-du-visage"
+                        },
+                        {
+                            "seg_id": 13403,
+                            "seg_name": "Shampooings et soins capillaires",
+                            "seg_slug": "shampooings-et-soins-capillaires"
+                        },
+                        {
+                            "seg_id": 13404,
+                            "seg_name": "Déodorants et parfums",
+                            "seg_slug": "deodorants-et-parfums"
+                        },
+                        {
+                            "seg_id": 13405,
+                            "seg_name": "Gels coiffants",
+                            "seg_slug": "gels-coiffants"
+                        },
+                        {
+                            "seg_id": 13405,
+                            "seg_name": "Gels douche",
+                            "seg_slug": "gels-douche"
+                        }
+                    ]
+                },
+                {
+                    "subcatid": 135,
+                    "subcat_name": "Parapharmacie et papiers hygièniques",
+                    "img": "/categories/niveau3/niv3-bieres-cidres.jpg",
+                    "segmentations": [
+                        {
+                            "seg_id": 13501,
+                            "seg_name": "Papiers toilettes",
+                            "seg_slug": "papiers-toilettes"
+                        },
+                        {
+                            "seg_id": 13502,
+                            "seg_name": "Mouchoirs",
+                            "seg_slug": "mouchoirs"
+                        },
+                        {
+                            "seg_id": 13503,
+                            "seg_name": "Parapharmacie",
+                            "seg_slug": "parapharmacie"
+                        },
+                        {
+                            "seg_id": 13504,
+                            "seg_name": "Incontinence",
+                            "seg_slug": "incontinence"
+                        },
+                        {
+                            "seg_id": 13505,
+                            "seg_name": "Compléments alimentaires et diététiques",
+                            "seg_slug": "complements-alimentaires-et-dietetiques"
+                        },
+                        {
+                            "seg_id": 13506,
+                            "seg_name": "Format voyage",
+                            "seg_slug": "format-voyage"
+                        },
+                        {
+                            "seg_id": 13507,
+                            "seg_name": "Hygiène féminine",
+                            "seg_slug": "hygiene-feminine"
                         }
                     ]
                 }
@@ -1411,76 +1843,152 @@
             "route": "nettoyage-entretien",
             "subcategories": [
                 {
-                    "subcatid": 401,
-                    "subcat_name": "Fruits",
+                    "subcatid": 141,
+                    "subcat_name": "Papiers",
                     "img": "/categories/niveau3/niv3-bieres-cidres.jpg",
                     "segmentations": [
                         {
-                            "seg_id": 110101,
-                            "seg_name": "Eaux de sources et eaux minérales",
-                            "seg_slug": "eaux-sources-minerales"
+                            "seg_id": 14101,
+                            "seg_name": "Papiers toilettes",
+                            "seg_slug": "papiers-toilettes"
                         },
                         {
-                            "seg_id": 110102,
-                            "seg_name": "Eaux gazeuses",
-                            "seg_slug": "eaux-gazeuses"
+                            "seg_id": 14102,
+                            "seg_name": "Essuie-tout",
+                            "seg_slug": "essuie-tout"
                         },
                         {
-                            "seg_id": 110103,
-                            "seg_name": "Eaux aromatisées",
-                            "seg_slug": "eaux-aromatisees"
-                        },
-                        {
-                            "seg_id": 110104,
-                            "seg_name": "Goûters et nomades",
-                            "seg_slug": "gouters-nomades"
-                        },
-                        {
-                            "seg_id": 110105,
-                            "seg_name": "Laits et boissons lactées",
-                            "seg_slug": "boissons-lactees"
-                        },
-                        {
-                            "seg_id": 110106,
-                            "seg_name": "boissons végétales",
-                            "seg_slug": "boissons-vegetales"
+                            "seg_id": 14103,
+                            "seg_name": "Mouchoirs",
+                            "seg_slug": "mouchoirs"
                         }
                     ]
                 },
                 {
-                    "subcatid": 402,
-                    "subcat_name": "Légumes",
+                    "subcatid": 142,
+                    "subcat_name": "Lessive et soin du linge",
                     "img": "/categories/niveau3/niv3-bieres-cidres.jpg",
                     "segmentations": [
                         {
-                            "seg_id": 110101,
-                            "seg_name": "Eaux de sources et eaux minérales",
-                            "seg_slug": "eaux-sources-minerales"
+                            "seg_id": 14201,
+                            "seg_name": "Produits naturels",
+                            "seg_slug": "produits-naturels"
                         },
                         {
-                            "seg_id": 110102,
-                            "seg_name": "Eaux gazeuses",
-                            "seg_slug": "eaux-gazeuses"
+                            "seg_id": 14202,
+                            "seg_name": "Lessives",
+                            "seg_slug": "lessives"
                         },
                         {
-                            "seg_id": 110103,
-                            "seg_name": "Eaux aromatisées",
-                            "seg_slug": "eaux-aromatisees"
+                            "seg_id": 14203,
+                            "seg_name": "Adoucissants",
+                            "seg_slug": "adoucissants"
                         },
                         {
-                            "seg_id": 110104,
-                            "seg_name": "Goûters et nomades",
-                            "seg_slug": "gouters-nomades"
+                            "seg_id": 14204,
+                            "seg_name": "Détachants et anti-décoloration",
+                            "seg_slug": "detachants-et-anti-decoloration"
                         },
                         {
-                            "seg_id": 110105,
-                            "seg_name": "Laits et boissons lactées",
-                            "seg_slug": "boissons-lactees"
+                            "seg_id": 14205,
+                            "seg_name": "Désinfectants et désodorisants textiles",
+                            "seg_slug": "desinfectants-et-desodorisants-textiles"
                         },
                         {
-                            "seg_id": 110106,
-                            "seg_name": "boissons végétales",
-                            "seg_slug": "boissons-vegetales"
+                            "seg_id": 14206,
+                            "seg_name": "Entretien lave-linge",
+                            "seg_slug": "entretien-lave-linge"
+                        },
+                        {
+                            "seg_id": 14207,
+                            "seg_name": "Aide au repassage, cintres pinces",
+                            "seg_slug": "aide-au-repassage-cintres-pinces"
+                        }
+                    ]
+                },
+                {
+                    "subcatid": 143,
+                    "subcat_name": "Nettoyants vaisselle",
+                    "img": "/categories/niveau3/niv3-bieres-cidres.jpg",
+                    "segmentations": [
+                        {
+                            "seg_id": 14301,
+                            "seg_name": "Produits naturels",
+                            "seg_slug": "produits-naturels-vaisselle"
+                        },
+                        {
+                            "seg_id": 14302,
+                            "seg_name": "Vaisselle à la main",
+                            "seg_slug": "vaisselle-a-la-main"
+                        },
+                        {
+                            "seg_id": 14303,
+                            "seg_name": "Vaisselle en machine",
+                            "seg_slug": "vaisselle-en-machine"
+                        },
+                        {
+                            "seg_id": 14304,
+                            "seg_name": "Eponges et gants à vaisselle",
+                            "seg_slug": "eponges-et-gants-a-vaisselle"
+                        }
+                    ]
+                },
+                {
+                    "subcatid": 144,
+                    "subcat_name": "Produits nettoyants",
+                    "img": "/categories/niveau3/niv3-bieres-cidres.jpg",
+                    "segmentations": [
+                        {
+                            "seg_id": 14401,
+                            "seg_name": "Produits naturels",
+                            "seg_slug": "produits-naturels-nettoyants"
+                        },
+                        {
+                            "seg_id": 14402,
+                            "seg_name": "Produits multi-usages et javel",
+                            "seg_slug": "produits-multi-usages-et-javel"
+                        },
+                        {
+                            "seg_id": 14403,
+                            "seg_name": "Produits WC et canalisations",
+                            "seg_slug": "produits-wc-et-canalisations"
+                        },
+                        {
+                            "seg_id": 14404,
+                            "seg_name": "Nettoyants meubles et vitres",
+                            "seg_slug": "nettoyants-meubles-et-vitres"
+                        },
+                        {
+                            "seg_id": 14405,
+                            "seg_name": "Nettoyants feux, fours et plaques de cuisson",
+                            "seg_slug": "nettoyants-feux-fours-et-plaques-de-cuisson"
+                        },
+                        {
+                            "seg_id": 14406,
+                            "seg_name": "Nettoyants sols et moquettes",
+                            "seg_slug": "nettoyants-sols-et-moquettes"
+                        }
+                    ]
+                },
+                {
+                    "subcatid": 145,
+                    "subcat_name": "Accessoires de ménage",
+                    "img": "/categories/niveau3/niv3-bieres-cidres.jpg",
+                    "segmentations": [
+                        {
+                            "seg_id": 14501,
+                            "seg_name": "Sacs poubelle",
+                            "seg_slug": "sacs-poubelle"
+                        },
+                        {
+                            "seg_id": 14502,
+                            "seg_name": "Sacs aspirateurs et ustensiles de nettoyage",
+                            "seg_slug": "sacs-aspirateurs-et-ustensiles-de-nettoyage"
+                        },
+                        {
+                            "seg_id": 14503,
+                            "seg_name": "éponges et gants",
+                            "seg_slug": "eponges-et-gants"
                         }
                     ]
                 }
@@ -1493,76 +2001,126 @@
             "route": "maisons-loisirs",
             "subcategories": [
                 {
-                    "subcatid": 401,
-                    "subcat_name": "Fruits",
+                    "subcatid": 151,
+                    "subcat_name": "Maison et intérieur",
                     "img": "/categories/niveau3/niv3-bieres-cidres.jpg",
                     "segmentations": [
                         {
-                            "seg_id": 110101,
-                            "seg_name": "Eaux de sources et eaux minérales",
-                            "seg_slug": "eaux-sources-minerales"
+                            "seg_id": 15101,
+                            "seg_name": "Piles",
+                            "seg_slug": "Piles"
                         },
                         {
-                            "seg_id": 110102,
-                            "seg_name": "Eaux gazeuses",
-                            "seg_slug": "eaux-gazeuses"
+                            "seg_id": 15102,
+                            "seg_name": "Ampoules et electricité",
+                            "seg_slug": "Ampoules et electricité"
                         },
                         {
-                            "seg_id": 110103,
-                            "seg_name": "Eaux aromatisées",
-                            "seg_slug": "eaux-aromatisees"
+                            "seg_id": 15103,
+                            "seg_name": "Désodorisants et bougies",
+                            "seg_slug": "Désodorisants et bougies"
                         },
                         {
-                            "seg_id": 110104,
-                            "seg_name": "Goûters et nomades",
-                            "seg_slug": "gouters-nomades"
+                            "seg_id": 15104,
+                            "seg_name": "Insecticides",
+                            "seg_slug": "Insecticides"
                         },
                         {
-                            "seg_id": 110105,
-                            "seg_name": "Laits et boissons lactées",
-                            "seg_slug": "boissons-lactees"
+                            "seg_id": 15105,
+                            "seg_name": "Textiles et cirages",
+                            "seg_slug": "Textiles et cirages"
                         },
                         {
-                            "seg_id": 110106,
-                            "seg_name": "boissons végétales",
-                            "seg_slug": "boissons-vegetales"
+                            "seg_id": 15106,
+                            "seg_name": "Papier cadeau, jouets",
+                            "seg_slug": "Papier cadeau, jouets"
+                        }
+                        ,
+                        {
+                            "seg_id": 15107,
+                            "seg_name": "Petit éléctroménager",
+                            "seg_slug": "Petit éléctroménager"
                         }
                     ]
                 },
                 {
-                    "subcatid": 402,
-                    "subcat_name": "Légumes",
+                    "subcatid": 1521,
+                    "subcat_name": "Bricolage, auto et jardin",
                     "img": "/categories/niveau3/niv3-bieres-cidres.jpg",
                     "segmentations": [
                         {
-                            "seg_id": 110101,
-                            "seg_name": "Eaux de sources et eaux minérales",
-                            "seg_slug": "eaux-sources-minerales"
+                            "seg_id": 15201,
+                            "seg_name": "Bricolage du quotidien",
+                            "seg_slug": "bricolage-du-quotidien"
                         },
                         {
-                            "seg_id": 110102,
-                            "seg_name": "Eaux gazeuses",
-                            "seg_slug": "eaux-gazeuses"
+                            "seg_id":15202,
+                            "seg_name": "Bois de chauffage et combustibles",
+                            "seg_slug": "bois-de-chauffage-et-combustibles"
                         },
                         {
-                            "seg_id": 110103,
-                            "seg_name": "Eaux aromatisées",
-                            "seg_slug": "eaux-aromatisees"
+                            "seg_id": 152103,
+                            "seg_name": "Automobile",
+                            "seg_slug": "automobile"
                         },
                         {
-                            "seg_id": 110104,
-                            "seg_name": "Goûters et nomades",
-                            "seg_slug": "gouters-nomades"
+                            "seg_id":152104,
+                            "seg_name": "Gaz",
+                            "seg_slug": "gaz"
                         },
                         {
-                            "seg_id": 110105,
-                            "seg_name": "Laits et boissons lactées",
-                            "seg_slug": "boissons-lactees"
+                            "seg_id": 152105,
+                            "seg_name": "Barbecue, piscine et jardin",
+                            "seg_slug": "barbecue-piscine-et-jardin"
+                        }
+                    ]
+                },
+                {
+                    "subcatid": 153,
+                    "subcat_name": "Cuisine",
+                    "img": "/categories/niveau3/niv3-bieres-cidres.jpg",
+                    "segmentations": [
+                        {
+                            "seg_id": 15301,
+                            "seg_name": "Vaisselle jetable",
+                            "seg_slug": "vaisselle-jetable"
                         },
                         {
-                            "seg_id": 110106,
-                            "seg_name": "boissons végétales",
-                            "seg_slug": "boissons-vegetales"
+                            "seg_id":15302,
+                            "seg_name": "Cuisson et conservation",
+                            "seg_slug": "cuisson-et-conservation"
+                        },
+                        {
+                            "seg_id": 15303,
+                            "seg_name": "Ustensiles de cuisine et petit électroménager",
+                            "seg_slug": "ustensiles-de-cuisine-et-petit-electromenager"
+                        }
+                    ]
+                },
+                {
+                    "subcatid": 154,
+                    "subcat_name": "Papeterie et fournitures scolaires",
+                    "img": "/categories/niveau3/niv3-bieres-cidres.jpg",
+                    "segmentations": [
+                        {
+                            "seg_id": 15401,
+                            "seg_name": "Papeterie",
+                            "seg_slug": "papeterie"
+                        },
+                        {
+                            "seg_id":15402,
+                            "seg_name": "Fournitures de bureau",
+                            "seg_slug": "fournitures-de-bureau"
+                        },
+                        {
+                            "seg_id": 15303,
+                            "seg_name": "Ecriture et correction",
+                            "seg_slug": "ecriture-et-correction"
+                        },
+                        {
+                            "seg_id": 15304,
+                            "seg_name": "Organisation et classement",
+                            "seg_slug": "organisation-et-classement"
                         }
                     ]
                 }
@@ -1572,82 +2130,83 @@
             "id": 16,
             "name": "Animaux",
             "img": "./categories/menuFooter-animaux.jpg",
-            "route": "animaux",
+            "route": "Animaux",
             "subcategories": [
                 {
-                    "subcatid": 401,
-                    "subcat_name": "Fruits",
+                    "subcatid": 161,
+                    "subcat_name": "Chiens",
                     "img": "/categories/niveau3/niv3-bieres-cidres.jpg",
                     "segmentations": [
                         {
-                            "seg_id": 110101,
-                            "seg_name": "Eaux de sources et eaux minérales",
-                            "seg_slug": "eaux-sources-minerales"
+                            "seg_id": 16101,
+                            "seg_name": "Récompenses",
+                            "seg_slug": "recompenses-chiens"
                         },
                         {
-                            "seg_id": 110102,
-                            "seg_name": "Eaux gazeuses",
-                            "seg_slug": "eaux-gazeuses"
+                            "seg_id": 16102,
+                            "seg_name": "Hygiène dentaire",
+                            "seg_slug": "hygiene-dentaire"
                         },
                         {
-                            "seg_id": 110103,
-                            "seg_name": "Eaux aromatisées",
-                            "seg_slug": "eaux-aromatisees"
+                            "seg_id": 16103,
+                            "seg_name": "Barquettes et boites",
+                            "seg_slug": "barquettes-et-boites-chiens"
                         },
                         {
-                            "seg_id": 110104,
-                            "seg_name": "Goûters et nomades",
-                            "seg_slug": "gouters-nomades"
+                            "seg_id": 16104,
+                            "seg_name": "Croquettes pour chiens",
+                            "seg_slug": "croquettes-pour-chiens"
                         },
                         {
-                            "seg_id": 110105,
-                            "seg_name": "Laits et boissons lactées",
-                            "seg_slug": "boissons-lactees"
+                            "seg_id": 16105,
+                            "seg_name": "Bien-être",
+                            "seg_slug": "bien-etre"
                         },
                         {
-                            "seg_id": 110106,
-                            "seg_name": "boissons végétales",
-                            "seg_slug": "boissons-vegetales"
+                            "seg_id": 16106,
+                            "seg_name": "Accessoires",
+                            "seg_slug": "accessoires"
                         }
                     ]
                 },
                 {
-                    "subcatid": 402,
-                    "subcat_name": "Légumes",
+                    "subcatid": 162,
+                    "subcat_name": "Chats",
                     "img": "/categories/niveau3/niv3-bieres-cidres.jpg",
                     "segmentations": [
                         {
-                            "seg_id": 110101,
-                            "seg_name": "Eaux de sources et eaux minérales",
-                            "seg_slug": "eaux-sources-minerales"
+                            "seg_id": 16201,
+                            "seg_name": "Friandises et lait",
+                            "seg_slug": "friandises-et-lait"
                         },
                         {
-                            "seg_id": 110102,
-                            "seg_name": "Eaux gazeuses",
-                            "seg_slug": "eaux-gazeuses"
+                            "seg_id": 16202,
+                            "seg_name": "Sachets repas",
+                            "seg_slug": "sachets-repas"
                         },
                         {
-                            "seg_id": 110103,
-                            "seg_name": "Eaux aromatisées",
-                            "seg_slug": "eaux-aromatisees"
+                            "seg_id": 16203,
+                            "seg_name": "Barquettes et boites",
+                            "seg_slug": "barquettes-et-boites-chats"
                         },
                         {
-                            "seg_id": 110104,
-                            "seg_name": "Goûters et nomades",
-                            "seg_slug": "gouters-nomades"
+                            "seg_id": 16204,
+                            "seg_name": "Croquettes pour chats",
+                            "seg_slug": "croquettes-pour-chats"
                         },
                         {
-                            "seg_id": 110105,
-                            "seg_name": "Laits et boissons lactées",
-                            "seg_slug": "boissons-lactees"
+                            "seg_id": 16205,
+                            "seg_name": "Bien-être",
+                            "seg_slug": "bien-etre-chat"
                         },
                         {
-                            "seg_id": 110106,
-                            "seg_name": "boissons végétales",
-                            "seg_slug": "boissons-vegetales"
+                            "seg_id": 16206,
+                            "seg_name": "Accessoires et litières",
+                            "seg_slug": "accessoires-et-litieres"
                         }
                     ]
                 }
+               
             ]
         }
     ]
