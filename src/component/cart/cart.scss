@@ -1,5 +1,11 @@
 @import '../../mixins';
 
+.cart-wrapper {
+    width: 100%;
+    @media (min-width: 768px) { 
+        width: auto !important;
+     }
+}
 .cart {
     .prod {
         &__cart {
@@ -9,7 +15,6 @@
             }
         }
     }
-
     .actions {
         .btn {
             &.cart-action {

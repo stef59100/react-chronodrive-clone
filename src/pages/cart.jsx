@@ -6,7 +6,7 @@ import FooterCat from './../component/footer-categories/index';
 
 export default function CartPage(props) {
      return <div>
-          <h1>This is the cart</h1>
+          <h1>Mon panier</h1>
           <Cart />
           <FooterCat cat={catData.categories}></FooterCat>
           

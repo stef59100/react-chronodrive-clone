@@ -20,7 +20,7 @@ const Cart = (props) => {
     return <div className="cart">
 
         {sort(props.cart).map(item => <div className="cart__item d-flex row p-2 mb-2 align-items-center justify-content-between" key={item.id}>
-            <img src={item.img} alt={item.title} className="img-fluid col-2 col-lg-1" />
+            <figure className='col-2 col-md-2'><img src={item.img} alt={`${item.title} - ${item.description}`} className="img-fluid" /></figure>
             <div className="col-2">
                 <p className="cart__item__title">{item.title}</p>
                 <p className="cart__item__desc">{item.description}</p>

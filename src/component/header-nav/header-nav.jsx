@@ -11,7 +11,7 @@ import { ReactComponent as Click } from './click.svg';
 import { ReactComponent as Percent } from './percent1.svg';
 import { ReactComponent as Star } from './star.svg';
 import { ReactComponent as User } from './user1.svg';
-import { ReactComponent as Burgerr } from './burgerr.svg';
+import { ReactComponent as Basket } from '../cart-header/basket2.svg';
 
 import './header-nav.scss';
 import { Navbar, Nav } from 'react-bootstrap';
@@ -27,16 +27,19 @@ import { Navbar, Nav } from 'react-bootstrap';
 const HeaderNav = () => {
     return (
 
-        <Navbar bg="light" expand="lg" className="col-12 col-md-4">
+        <Navbar bg="primary" expand="lg" className="col-12 col-md-4 justify-content-end mb-3 mt-3 mb-md-0">
            
-            <Navbar.Toggle aria-controls="basic-navbar-nav" className='bg-primary text-white' />
+            <Navbar.Toggle aria-controls="basic-navbar-nav" className='bg-primary text-white ' />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto bg-primary-down-md">
-                  
+                <Nav.Item as="li">
+                        <NavLink to="/categories/" className="nav-link">
+                            <div className="menu_icon basket"><Basket /></div>
+                            <span>Rayons</span></NavLink>
+                    </Nav.Item>                 
                     <Nav.Item as="li">
                         <NavLink to="/promos" className="nav-link">
                             <div className="menu_icon percent"><Percent /></div>
-
                             <span>Promotions</span></NavLink>
                     </Nav.Item>
                     <Nav.Item as="li">
@@ -52,7 +55,7 @@ const HeaderNav = () => {
                         </NavLink>
                     </Nav.Item>
                     <Nav.Item as="li" >
-                        <NavLink to="/promos" className="nav-link">
+                        <NavLink to="/user" className="nav-link">
                             <div className="menu_icon user"><User /></div>
                             <span>Mon compte</span>
                         </NavLink>

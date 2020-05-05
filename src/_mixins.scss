@@ -2,7 +2,7 @@
 @import './variables';
 
 @mixin border {
-    border: 1px solid $lightgrey;
+    border: 1px solid $darkgrey;
 }
 
 @mixin full-circle {

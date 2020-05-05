@@ -2,6 +2,7 @@ import React from 'react';
 import { connect } from 'react-redux';
 import fetchApi from '../../data/fetch-api'
 import ProductListItemPromo from './product-list-item-promo';
+import { credential } from './../../credentials/index';
 // import { cartItemsWithQuantities } from './../cart/index';
 
 import './product-list.scss';
@@ -10,7 +11,7 @@ class ProductList extends React.Component {
 
     componentDidMount() {
         const { loadProducts } = this.props
-        fetchApi('get', 'https://api.jsonbin.io/b/5e42be7b817c5f163f9a9ff4')
+        fetchApi('get', credential)
             .then((json => {
                 loadProducts(json)
             }))

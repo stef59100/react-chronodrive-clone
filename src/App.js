@@ -15,14 +15,9 @@ import {
   CollapsibleContent
 } from "react-collapsible-component";
 
-
-
-
 import './app.scss';
 import './helpers/collapse.scss';
 import Geoloc from './component/geolocalisation/index';
-
-
 
 class App extends React.Component {
   constructor(props) {

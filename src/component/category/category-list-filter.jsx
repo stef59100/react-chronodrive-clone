@@ -1,10 +1,5 @@
 import React from 'react';
-
-
 import CategoryListItem from './category-list-item';
-
-
-
 import './product-list.scss';
 
 const CategoryListFilter = (props) => {
@@ -20,6 +15,4 @@ const CategoryListFilter = (props) => {
     </div>)
 
 }
-
-
 export default CategoryListFilter

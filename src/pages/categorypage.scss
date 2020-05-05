@@ -1,42 +1,23 @@
+@import '../mixins';
 
-@import '../_variables';
+.categories {
 
-.navcatpage {
     &__item {
-
-        position: relative;
-
-        a.invert {
-            padding: 16px;
-            display: block;
-            &:hover {
-                color: $lightest;
-                background-color: $green;
-                text-decoration: none;
-                border-radius: 8px;               
-            }
-        }
-        &:before {
-            content: '';
-        display: block;
-        height: 70%;
-        position: absolute;
-        top: 50%;
-        left: 8px;
-        -webkit-transform: translateY(-50%);
-        transform: translateY(-50%);
-        border-left: 1px solid #c2c2c2;
-        }
         
+        margin-left: 7px;
+        margin-right: 7px;
+        @include border;
+        background-color: $lightest;
+        margin-bottom: 7px;
 
+        a {
+            margin-top: 7px;
+            color: $dark;
+            font-size: 1.2em;
+            display: block;
 
+            text-align: center;
+        }
     }
 
-
-
-
 }
-
-
-
-

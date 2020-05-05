@@ -2,11 +2,17 @@
 
 .navbar {
 
-    @media(min-width:67px)
-{    &-nav {
-        margin-top: 15px;
+    @media(min-width:767px) {
+        &-nav {
+            margin-top: 15px;
+
+        }
+
+        &.bg-primary {
+            background-color: transparent !important;
+        }
     }
-}
+
     .nav-item {
         @media(max-width:767px) {
             margin: auto 6px;
@@ -18,6 +24,9 @@
             line-height: 64px;
             text-align: center;
             @include full-circle;
+            &.basket {
+                background-color: $green;
+            }
 
             &.percent {
                 background-color: $red;
@@ -54,31 +63,19 @@
 
                 &.home {
                     color: blue !important;
-                }
+                }              
             }
 
             svg {
-
                 @include svg-dim;
                 fill: $lightest;
 
             }
+            @media(min-width: 768px) {
+                span {
+                    display: none;
+                }
+            }
         }
-    }
-}
-
-.cart {
-    @include border-rad(50px);
-    border: 2px solid $green;
-    min-width: 160px;
-
-    a.nav-link {
-        color: $green;
-        font-size: 1.25rem;
-    }
-
-    svg {
-        @include svg-dim;
-        fill: $green !important;
     }
 }

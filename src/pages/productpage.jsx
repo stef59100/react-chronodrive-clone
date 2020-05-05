@@ -1,5 +1,8 @@
 import React from 'react';
 import { useParams, useLocation } from 'react-router';
+import { credential } from './../credentials/index';
+
+
 
 import { Helmet } from 'react-helmet';
 import { useFetch } from '../hooks';
@@ -10,7 +13,7 @@ const ProductPage = (props) => {
     let { addToCart, removeFromCart, cartItem } = useLocation();
     const { productId } = useParams();
     const [data, loading] = useFetch(
-        "https://api.jsonbin.io/b/5e4d0e7cf3a83555904f73ca/8"
+        credential
     );
 
     let findProduct = data.filter(item => item.id === parseInt(productId));
@@ -38,8 +41,6 @@ const ProductPage = (props) => {
                 </div>
             </div>
         ))}
-
-
     </div>
     )
 }

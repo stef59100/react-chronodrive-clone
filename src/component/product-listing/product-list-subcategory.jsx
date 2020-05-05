@@ -3,6 +3,7 @@ import { connect } from 'react-redux';
 import { useFetch } from '../../hooks';
 import ProductListItem from './product-list-item';
 import { useParams, useLocation } from 'react-router';
+import { credential } from './../../credentials/index';
 
 // import { cartItemsWithQuantities } from './../cart/index';
 
@@ -12,7 +13,7 @@ const ProductListSub= (props) => {
     const {handle} = useParams();
     let { addToCart, removeFromCart, cartItem } = useLocation();
     const [data, loading] = useFetch(
-        "https://api.jsonbin.io/b/5e4d0e7cf3a83555904f73ca/8"
+        credential
     );
 
     let findProducts = data.filter(item => item.subcat_id === parseInt(handle));

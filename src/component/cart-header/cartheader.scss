@@ -1,0 +1,29 @@
+@import '../../mixins';
+
+.header__cart {
+    width: 100%;
+    @media (min-width: 768px) { 
+        width: auto !important;
+     } 
+     
+    &__inside {
+        @include border-rad(50px);
+        border: 2px solid $green;
+        min-width: 160px;
+    
+        a.nav-link {
+            color: $green;
+            font-size: 1.25rem;
+        }
+    
+        svg {
+            @include svg-dim;
+            fill: $green !important;
+        }
+    }
+}
+
+
+
+
+
