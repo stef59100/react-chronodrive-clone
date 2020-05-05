@@ -41,9 +41,7 @@ class App extends React.Component {
               <div className="col">
                 <Logo className="h logo" />
                 <Geoloc />
-
               </div>
-
               <SearchForm />
               <HeaderNav ></HeaderNav>
               <CartHeader {...this.props}></CartHeader>

@@ -1,6 +1,9 @@
 @import '../../mixins';
 
 .prod {
+    &__link {
+       
+    }
     &__desc {
         min-height: 180px;
     }

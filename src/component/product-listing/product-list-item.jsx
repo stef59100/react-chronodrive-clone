@@ -13,8 +13,18 @@ export default function ProductListtem(props) {
     return (
         <div className="col-12 col-special-5 d-flex justify-content-between align-items-baseline flex-column mb-3" key={props.product.id}>
             <div className="prod">
-                <Link to={`/product/${props.product.id}`}>Link</Link>
-                <img src={props.product.img} alt={props.product.title} className="img-fluid" />
+                <Link to=
+                {{
+                    pathname:`/product/${props.product.id}`,
+                    state: {
+                        cacahuetes:true
+                    },
+                    addToCart: props.addToCart,
+                    removeFromCart : props.removeFromCart,
+                    cartItem:props.cartItem
+                 }}
+                className='prod__link'>
+                <img src={`../.${props.product.img}`} alt={props.product.title} className="img-fluid" /></Link>
                 <div className="prod__desc d-flex flex-column  justify-content-between ">
                     <div className="text_wrap">
                         <h2 className="h5">{props.product.title}</h2>
@@ -23,15 +33,7 @@ export default function ProductListtem(props) {
                     <div className="prod__extras">
                         <ProductConditioning badge={props.product.conditioning} ></ProductConditioning>
                     </div>
-                    {/* <div className="qtydisplay">
-                {
-                (props.cartItem && props.cartItem.quantity) || 0
-                }
-            </div>
-            <button className="btn cart-action rounded-circle add-bttn" 
-            onClick={() => props.addToCart(props.product)} >
-                <Basket />
-            </button> */}
+                   
                     <AddRmvBttn product={props.product}
                         addToCart={props.addToCart}
                         removeFromCart={props.removeFromCart}

@@ -1,8 +1,16 @@
 @import '../../mixins';
 
 .navbar {
+
+    @media(min-width:67px)
+{    &-nav {
+        margin-top: 15px;
+    }
+}
     .nav-item {
-        margin: auto 6px;
+        @media(max-width:767px) {
+            margin: auto 6px;
+        }
 
         .menu_icon {
             width: 64px;
@@ -10,21 +18,27 @@
             line-height: 64px;
             text-align: center;
             @include full-circle;
+
             &.percent {
                 background-color: $red;
             }
+
             &.basket-2 {
                 background-color: $green;
             }
-            &.star {               
+
+            &.star {
                 background-color: $gold;
             }
-            &.click {               
+
+            &.click {
                 background-color: $brown;
             }
-            &.user {                
+
+            &.user {
                 background-color: $lightest;
                 border: 2px solid $dark;
+
                 svg {
                     fill: $dark !important;
                 }
