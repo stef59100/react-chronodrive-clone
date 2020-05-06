@@ -4,6 +4,8 @@ import ProductList from '../component/product-listing/product-list';
 import ProductListPromo from './../component/product-listing/product-list-promos';
 
 import Banner from '../component/banner';
+import BannerSkyCraper from './../component/banner/skycraper';
+
 import FooterCat from './../component/footer-categories/index';
 
 //import data from '../data/products.json';
@@ -12,26 +14,26 @@ import catData from '../data/categories.json';
 
 export default function HomePage(props) {
      return (<>
-          <ProductList/>
+          <ProductList />
           <Banner banners={bannersData.banners[0]}></Banner>
           <Banner banners={bannersData.banners[1]}></Banner>
 
           <div className="row mt-2">
-               <Banner banners={bannersData.banners[2]}></Banner>
+               <BannerSkyCraper banners={bannersData.banners[2]}></BannerSkyCraper>
                <div className="col">
-                    <ProductListPromo/>
+                    <ProductListPromo />
                </div>
           </div>
           <div className="row mt-2">
-               <Banner banners={bannersData.banners[2]}></Banner>
+               <BannerSkyCraper banners={bannersData.banners[2]}></BannerSkyCraper>
                <div className="col">
-               <ProductListPromo/>
+                    <ProductListPromo />
                </div>
           </div>
           <div className="row mt-2">
-               <Banner banners={bannersData.banners[2]}></Banner>
+               <BannerSkyCraper banners={bannersData.banners[2]}></BannerSkyCraper>
                <div className="col">
-               <ProductListPromo/>
+                    <ProductListPromo />
                </div>
           </div>
           <div className="row">
