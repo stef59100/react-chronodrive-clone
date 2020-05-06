@@ -30,7 +30,8 @@ const ProductPage = (props) => {
                         <img src={`../.${prod.img}`} alt={prod.title} className="img-fluid" />
                     </figure>
                 </div>
-                <div className="right col-6"> <h1>{prod.title}</h1>
+                <div className="right col-6"> 
+                <h1 className="h1 text-primary text-bold">{prod.title}</h1>
                     <p>{prod.description}</p>
                     <span className="prod__price">{prod.price} €</span>
                     <AddRmvBttn product={prod}

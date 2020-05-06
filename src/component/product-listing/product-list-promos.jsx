@@ -20,10 +20,14 @@ class ProductList extends React.Component {
     render() {
         const { addToCart, removeFromCart, products, cart } = this.props;
         let count = 0;
+        let promoProducts=products.filter(product=>product.promo===true);
+        let  getRandomInt = (max) => {
+            return Math.floor(Math.random() * Math.floor(max));
+          }
 
         return <div className="products-list row mb-3">
             {
-                products.slice(5, 9).map((product, i) => (
+               promoProducts.slice(7,11).map((product, i) => (
 
                     <ProductListItemPromo
                         key={i}
@@ -33,7 +37,6 @@ class ProductList extends React.Component {
                         //cart={props.cart}
                         cartItem={cart.filter(cartItem => cartItem.id === product.id)[0]}
                     />
-
                 )
                 )}
         </div>

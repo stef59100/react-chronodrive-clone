@@ -12,7 +12,7 @@ export default function ProductListtem(props) {
     //    const thisItemInCart = props.cart.filter(item => item.id === props.product.id)[0];
     return (
         <div className="col-12 col-special-5 d-flex justify-content-between align-items-baseline flex-column mb-3" key={props.product.id}>
-            <div className="prod">
+            <div className="prod p-2">
                 <Link to=
                 {{
                     pathname:`/product/${props.product.id}`,

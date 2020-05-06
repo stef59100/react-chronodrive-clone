@@ -1,17 +1,26 @@
 @import '../../mixins';
 
-.products-list {  
+.products-list {
     padding-left: 15px;
     padding-right: 15px;
+
     .prod {
         @include border;
-        background-color:$lightest;
-        &:not(:first-child){            
-            margin-left:7px;
-            margin-right:7px;
-        }  
-        &:nth-child(5n){  
-            margin-right:0;
-        }        
+        background-color: $lightest;
+
+        &:not(:first-child) {
+            margin-left: 7px;
+            margin-right: 7px;
+        }
+
+        &:nth-child(5n) {
+            margin-right: 0;
+        }
     }
+}
+
+.empty__cat {
+    font-size: 2em;
+    color: $darkgrey;
+    font-weight: bold;
 }

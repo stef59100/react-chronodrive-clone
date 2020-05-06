@@ -20,14 +20,17 @@ const Cart = (props) => {
     return <div className="cart">
 
         {sort(props.cart).map(item => <div className="cart__item d-flex row p-2 mb-2 align-items-center justify-content-between" key={item.id}>
-            <figure className='col-2 col-md-2'><img src={item.img} alt={`${item.title} - ${item.description}`} className="img-fluid" /></figure>
-            <div className="col-2">
+            <figure className='col-12 col-md-2'><img src={item.img} alt={`${item.title} - ${item.description}`} className="img-fluid" /></figure>
+            <div className="col-12 col-md-2">
                 <p className="cart__item__title">{item.title}</p>
                 <p className="cart__item__desc">{item.description}</p>
                 <p>{item.conditioning}</p>
             </div>
-            <p className="col-2">{item.price} €</p>
-            <p className="col-2">{(item.price * item.quantity).toFixed(2)} €</p>
+            <div className="col-12 col-md-2 h5 text-primary">
+               <p> {item.price} €</p>
+                <p>{(item.price * item.quantity).toFixed(2)} €</p>
+            </div>
+           
             <div className="actions  col-2 d-flex justify-content-between align-items-center">
                 <div className="prod__cart__actions d-flex justify-content-end align-items-center">
                     <button className="btn cart-action rounded-circle rmv-bttn" onClick={() => props.removeFromCart(item)}><Minus className="actions_bttn less" /></button>
