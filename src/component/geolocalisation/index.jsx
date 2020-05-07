@@ -20,26 +20,22 @@ class Geoloc extends React.Component {
       currentStoreName: `${storesLoc.stores[0].name} - ${storesLoc.stores[0].address}`,
       currentStoreCp: storesLoc.stores[0].cp,
       currentStoreAddress: storesLoc.stores[0].address,
+      currentStorePhone:storesLoc.stores[0].tel,
+      currentStoreOpening:storesLoc.stores[0].opening,
       selectedOption: "Bondues - Rond point de ravennes les francs",
     }
   }
+   componentDidMount(){
+    this.props.getphoneNumber(this.state.currentStorePhone);
+    this.props.getstoreOpening(this.state.currentStoreOpening)
+   }
  
   handleOptionChange = e => {
     this.setState({
       selectedOption: e.target.value,
       currentStoreName: e.target.value
     })
-  }
-
-  closeOnFocusOut = () => {
-    const theTrigger = document.querySelector('.Collapsible__trigger');
-    if (theTrigger.classList.contains('is-open')){
-      
-    }
-
-
-  }
-
+  }  
   render() {
     return (
       <div className="geoloc-wrapper">

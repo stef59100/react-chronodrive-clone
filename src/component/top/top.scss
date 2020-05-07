@@ -1,0 +1,13 @@
+@import '../../mixins';
+
+.toparea {
+    font-family: 'Roboto Condensed';
+    font-size: 1.5em;
+&__greet {    
+}
+&__info {    
+    font-weight: 600;
+    color: $cagn;
+}
+
+}

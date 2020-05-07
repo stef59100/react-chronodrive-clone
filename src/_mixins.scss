@@ -38,7 +38,9 @@
 @mixin borderb($type, $color, $widdth) {
     border-bottom: $widdth $type $color;
 }
-
+@mixin borderfull($type, $color, $widdth) {
+    border: $widdth $type $color;
+}
 $my_width: percentage(100/5);
 
 @mixin svg-dim {

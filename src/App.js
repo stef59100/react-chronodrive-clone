@@ -4,7 +4,7 @@ import Router from './Router'
 import { connect } from 'react-redux';
 
 // import Extras from './component/extras';
-import TopArea from './component/top';
+import TopArea from './component/top/top';
 import CartHeader from './component/cart-header';
 import SearchForm from './component/search-form/search-form';
 import HeaderNav from './component/header-nav/header-nav';
@@ -23,22 +23,42 @@ class App extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
-      city: { id: '1', name: 'Bondues - Ravennes les Francs', cp: '59300' }
+      phone: '',
+      info: '',
+      user:''
     }
+    this.getItFromChild= this.getItFromChild.bind(this);
+    this.getStorePhone= this.getStorePhone.bind(this);
+    this.getStoreInfo= this.getStoreInfo.bind(this);
   }
+
+  getItFromChild(arg){
+    this.setState({user: arg})
+    console.log(arg);
+  }
+
+  getStorePhone(arg){
+    this.setState({phone: arg})
+  }
+  getStoreInfo(arg){
+    this.setState({info: arg})
+    console.log(arg);
+  }
+
+
   render() {
     return (
       <>
-        <TopArea></TopArea>
+        <TopArea callb={this.getItFromChild} storephone={this.state.phone} storeinfo={this.state.info}></TopArea>
         <div className="extras">
           <div className="container">
             <div className="row justify-content-between align-items-center">
               <div className="col">
                 <Logo className="h logo" />
-                <Geoloc />
+                <Geoloc getphoneNumber={this.getStorePhone} getstoreOpening={this.getStoreInfo} />
               </div>
               <SearchForm />
-              <HeaderNav ></HeaderNav>
+              <HeaderNav user={this.state.user} ></HeaderNav>
               <CartHeader {...this.props}></CartHeader>
             </div>
           </div>

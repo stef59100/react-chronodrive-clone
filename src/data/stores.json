@@ -11,8 +11,9 @@
             "address": "Rond point de ravennes les francs",
             "cp": "59200",
             "opening": {
-                "week": "8h-20h",
-                "sunday": "9h-12h"
+                "message" : "Nouveaux horaires :",
+                "week": "Lundi - samedi : 8h30 - 19h30",
+                "sunday": "Dimanche : 9h - 12h45"
             },
             "extra": "",
             "selected": true
@@ -28,8 +29,9 @@
             "address": "Rond point de ravennes les francs",
             "cp": "59200",
             "opening": {
-                "week": "8h-20h",
-                "sunday": "9h-12h"
+                "message" : "Nouveaux horaires :",
+                "week": "Lundi - samedi : 8h30 - 19h30",
+                "sunday": "Dimanche : 9h - 12h45"
             },
             "extra": "",
             "selected": false
@@ -45,8 +47,9 @@
             "address": "Z.I de la Pilaterie",
             "cp": "59200",
             "opening": {
-                "week": "8h-20h",
-                "sunday": "9h-12h"
+                "message" : "Nouveaux horaires :",
+                "week": "Lundi - samedi : 8h30 - 19h30",
+                "sunday": "Dimanche : 9h - 12h45"
             },
             "extra": "",
             "selected": false

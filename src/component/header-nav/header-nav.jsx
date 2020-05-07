@@ -1,5 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import UserDropDown from './../user-dropdown/index';
+
 import Collapsible from 'react-collapsible';
 
 
@@ -22,21 +24,24 @@ import { Navbar, Nav } from 'react-bootstrap';
 // import cart from '../cart';
 // import Router from './../../Router';
 
+const triggercontent = <> <div className="menu_icon user"><User /></div>
+    <span>Mon compte</span>
+</>
 
 
-const HeaderNav = () => {
+const HeaderNav = (props) => {
     return (
 
         <Navbar bg="primary" expand="lg" className="col-12 col-md-4 justify-content-end mb-3 mt-3 mb-md-0">
-           
+
             <Navbar.Toggle aria-controls="basic-navbar-nav" className='bg-primary text-white ' />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto bg-primary-down-md">
-                <Nav.Item as="li">
+                    <Nav.Item as="li">
                         <NavLink to="/categories/" className="nav-link">
                             <div className="menu_icon basket"><Basket /></div>
                             <span>Rayons</span></NavLink>
-                    </Nav.Item>                 
+                    </Nav.Item>
                     <Nav.Item as="li">
                         <NavLink to="/promos" className="nav-link">
                             <div className="menu_icon percent"><Percent /></div>
@@ -54,11 +59,14 @@ const HeaderNav = () => {
                             <span>En 1 clic</span>
                         </NavLink>
                     </Nav.Item>
-                    <Nav.Item as="li" >
-                        <NavLink to="/user" className="nav-link">
-                            <div className="menu_icon user"><User /></div>
-                            <span>Mon compte</span>
-                        </NavLink>
+                    <Nav.Item as="li" className="user-dropdown">
+                        <div className="nav-link">
+                            <Collapsible className="user-dropdown" trigger={triggercontent} transitionCloseTime={500} triggerTagName='div' behavior="hover">
+
+                                <UserDropDown  user={props.user} />
+
+                            </Collapsible>
+                        </div>
                     </Nav.Item>
                 </Nav>
             </Navbar.Collapse>
