@@ -9,6 +9,8 @@ import ProductListSub from './component/product-listing/product-list-subcategory
 import Subcategory from './component/product-listing/subbcatagory-list-class';
 import CategoryPage from './pages/categorypage';
 
+import UserLogin from './pages/loginpage';
+
 
 
 const Router = () => (
@@ -21,7 +23,9 @@ const Router = () => (
         <Route exact path='/categories/' component={CategoryPage}/>  
         <Route exact path='/category/:handle' component={SubcategoryPage}/>  
         <Route exact path='/category/subcategory/:handle' component={ProductListSub}/>        
-        <Route exact path='/product/:productId' component={ProductPage} /> 
+        <Route exact path='/product/:productId' component={ProductPage} />
+
+         <Route exact path='/user/:userId/account' component={UserLogin} />  
 
         <Route exact path='/testsub/:handle' component={Subcategory}/>    
     </Switch>

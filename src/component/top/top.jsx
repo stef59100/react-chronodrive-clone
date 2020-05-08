@@ -7,7 +7,7 @@ class TopArea extends React.Component {
         this.state = {
             greet: "Bonjour",
             user: {
-                name: "Stéphane Joos",
+                name: "John Doe",
                 id: 225
             }
 
