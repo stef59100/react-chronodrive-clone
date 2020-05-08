@@ -6,12 +6,15 @@ class TopArea extends React.Component {
         super(props)
         this.state = {
             greet: "Bonjour",
-            user: "Stéphane Joos"
+            user: {
+                name: "Stéphane Joos",
+                id: 225
+            }
 
         }
     }
     componentDidMount() {
-        this.props.callb(this.state.user)        
+        this.props.callb(this.state.user)
     }
 
     render() {
@@ -19,7 +22,7 @@ class TopArea extends React.Component {
             <div className="toparea">
                 <div className="container">
                     <div className=" row d-flex justify-content-between p-3">
-                        <p className="toparea__greet">{this.state.greet} {this.state.user}</p>
+                        <p className="toparea__greet">{this.state.greet} {this.state.user.name}</p>
                         <div className="toparea__info">
                             <span>{this.props.storeinfo.message} {this.props.storeinfo.week} / {this.props.storeinfo.sunday}</span>
                         </div>
@@ -29,6 +32,5 @@ class TopArea extends React.Component {
             </div>
         )
     }
-
 }
 export default TopArea

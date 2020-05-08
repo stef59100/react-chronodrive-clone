@@ -25,7 +25,7 @@ class App extends React.Component {
     this.state = {
       phone: '',
       info: '',
-      user:''
+      user:[]
     }
     this.getItFromChild= this.getItFromChild.bind(this);
     this.getStorePhone= this.getStorePhone.bind(this);
