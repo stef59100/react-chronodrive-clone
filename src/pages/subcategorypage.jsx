@@ -19,7 +19,7 @@ const SubcategoryPage = () => {
                         <title>{item.name}</title>
                     </Helmet>
                     <h1>{item.name}</h1>
-                    <ul className="d-flex flex-row list-unstyled justify-content-start">
+                    <ul className="d-flex flex-column flex-md-row list-unstyled justify-content-start">
                         {item.subcategories.map((subcat, k) =>
                             <li className={`col-12 col-special-5 d-flex flex-column align-items-center`} key={k}>
                                 <figure><img src={subcat.img} alt={subcat.subcat_name} /></figure>

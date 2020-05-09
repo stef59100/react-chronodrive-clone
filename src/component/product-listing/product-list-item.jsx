@@ -41,7 +41,7 @@ export default function ProductListtem(props) {
 
                     <div className={`prod__price__container d-flex ${cagnoo}`}>
                         <div className="prod__price__container__price col-5">
-                            <ShowPromo promo={props.product.promo} price={props.product.price} cagnottage={props.product.cagnottage} specialprice={props.product.specialprice}></ShowPromo>
+                            <ShowPromo promo={props.product.promo} price={props.product.price} cagnottage={props.product.cagnottage} rebate={(props.product.price-props.product.specialprice)/props.product.price*100 } specialprice={props.product.specialprice}></ShowPromo>
                         </div>
                         <div className="prod__price__container__extras col-7">
                             <p className="message text-center">
@@ -73,6 +73,7 @@ function ShowPromo(props) {
                 <p className="price">
                     {props.specialprice} €
             </p>
+        <p>- {props.rebate.toFixed(2)} %</p>
             </>
         )
     }
